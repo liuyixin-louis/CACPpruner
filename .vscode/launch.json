@@ -1,0 +1,45 @@
+{
+    "configurations": [
+    
+    
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--job",
+                "search",
+                "--suffix",
+                "cacp_vgg16_search",
+                "--model",
+                "vgg16",
+                "--dataset",
+                "cifar10",
+                "--lbound",
+                "0.2",
+                "--rbound",
+                "1",
+                "--reward",
+                "acc_reward",
+                "--data_root",
+                "C:\\Users\\lenovo\\dataset\\cifar",
+                "--ckpt_path",
+                "C:\\Users\\lenovo\\Desktop\\cacp\\amc_vgg\\checkpoints\\vgg16_cifar10.pt",
+                "--seed",
+                "2020",
+                "--warmup",
+                "10",
+                "--rmsize",
+                "200",
+                "--bsize",
+                "10",
+                "--train_episode",
+                "800",
+                "--compression_targets",
+                "0.3,0.7,0.9"
+            ]
+        }
+    ]
+}

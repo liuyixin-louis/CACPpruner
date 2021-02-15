@@ -1,0 +1,984 @@
+01/21 06:23:44 PM | Epoch[0] (4864/50000):	Loss 0.5116	Accurary 85.12%		Time 26.77s
+01/21 06:23:44 PM | Epoch[0] (4864/50000):	Loss 0.5116	Accurary 85.12%		Time 26.77s
+01/21 06:24:05 PM | Epoch[0] (9728/50000):	Loss 0.3899	Accurary 88.26%		Time 21.87s
+01/21 06:24:05 PM | Epoch[0] (9728/50000):	Loss 0.3899	Accurary 88.26%		Time 21.87s
+01/21 06:24:27 PM | Epoch[0] (14592/50000):	Loss 0.3302	Accurary 89.92%		Time 21.71s
+01/21 06:24:27 PM | Epoch[0] (14592/50000):	Loss 0.3302	Accurary 89.92%		Time 21.71s
+01/21 06:24:48 PM | Epoch[0] (19456/50000):	Loss 0.2952	Accurary 90.77%		Time 21.36s
+01/21 06:24:48 PM | Epoch[0] (19456/50000):	Loss 0.2952	Accurary 90.77%		Time 21.36s
+01/21 06:25:06 PM | Epoch[0] (24320/50000):	Loss 0.2731	Accurary 91.43%		Time 17.86s
+01/21 06:25:06 PM | Epoch[0] (24320/50000):	Loss 0.2731	Accurary 91.43%		Time 17.86s
+01/21 06:25:24 PM | Epoch[0] (29184/50000):	Loss 0.2560	Accurary 91.92%		Time 17.65s
+01/21 06:25:24 PM | Epoch[0] (29184/50000):	Loss 0.2560	Accurary 91.92%		Time 17.65s
+01/21 06:25:42 PM | Epoch[0] (34048/50000):	Loss 0.2446	Accurary 92.22%		Time 17.65s
+01/21 06:25:42 PM | Epoch[0] (34048/50000):	Loss 0.2446	Accurary 92.22%		Time 17.65s
+01/21 06:25:59 PM | Epoch[0] (38912/50000):	Loss 0.2356	Accurary 92.44%		Time 17.58s
+01/21 06:25:59 PM | Epoch[0] (38912/50000):	Loss 0.2356	Accurary 92.44%		Time 17.58s
+01/21 06:26:17 PM | Epoch[0] (43776/50000):	Loss 0.2285	Accurary 92.66%		Time 17.64s
+01/21 06:26:17 PM | Epoch[0] (43776/50000):	Loss 0.2285	Accurary 92.66%		Time 17.64s
+01/21 06:26:34 PM | Epoch[0] (48640/50000):	Loss 0.2245	Accurary 92.76%		Time 16.65s
+01/21 06:26:34 PM | Epoch[0] (48640/50000):	Loss 0.2245	Accurary 92.76%		Time 16.65s
+01/21 06:26:41 PM | Test Loss 0.4453	Accurary 85.93%		Time 4.22s
+
+01/21 06:26:41 PM | Test Loss 0.4453	Accurary 85.93%		Time 4.22s
+
+01/21 06:27:02 PM | Epoch[1] (4864/50000):	Loss 0.1670	Accurary 94.51%		Time 20.76s
+01/21 06:27:02 PM | Epoch[1] (4864/50000):	Loss 0.1670	Accurary 94.51%		Time 20.76s
+01/21 06:27:19 PM | Epoch[1] (9728/50000):	Loss 0.1679	Accurary 94.51%		Time 16.38s
+01/21 06:27:19 PM | Epoch[1] (9728/50000):	Loss 0.1679	Accurary 94.51%		Time 16.38s
+01/21 06:27:35 PM | Epoch[1] (14592/50000):	Loss 0.1651	Accurary 94.52%		Time 16.27s
+01/21 06:27:35 PM | Epoch[1] (14592/50000):	Loss 0.1651	Accurary 94.52%		Time 16.27s
+01/21 06:27:51 PM | Epoch[1] (19456/50000):	Loss 0.1619	Accurary 94.62%		Time 16.38s
+01/21 06:27:51 PM | Epoch[1] (19456/50000):	Loss 0.1619	Accurary 94.62%		Time 16.38s
+01/21 06:28:08 PM | Epoch[1] (24320/50000):	Loss 0.1620	Accurary 94.58%		Time 16.64s
+01/21 06:28:08 PM | Epoch[1] (24320/50000):	Loss 0.1620	Accurary 94.58%		Time 16.64s
+01/21 06:30:23 PM | Epoch[0] (4864/50000):	Loss 0.4701	Accurary 85.68%		Time 21.32s
+01/21 06:30:23 PM | Epoch[0] (4864/50000):	Loss 0.4701	Accurary 85.68%		Time 21.32s
+01/21 06:30:23 PM | Epoch[0] (4864/50000):	Loss 0.4701	Accurary 85.68%		Time 21.32s
+01/21 06:30:39 PM | Epoch[0] (9728/50000):	Loss 0.3764	Accurary 88.22%		Time 15.77s
+01/21 06:30:39 PM | Epoch[0] (9728/50000):	Loss 0.3764	Accurary 88.22%		Time 15.77s
+01/21 06:30:39 PM | Epoch[0] (9728/50000):	Loss 0.3764	Accurary 88.22%		Time 15.77s
+01/21 06:30:55 PM | Epoch[0] (14592/50000):	Loss 0.3205	Accurary 89.95%		Time 16.12s
+01/21 06:30:55 PM | Epoch[0] (14592/50000):	Loss 0.3205	Accurary 89.95%		Time 16.12s
+01/21 06:30:55 PM | Epoch[0] (14592/50000):	Loss 0.3205	Accurary 89.95%		Time 16.12s
+01/21 06:31:11 PM | Epoch[0] (19456/50000):	Loss 0.2936	Accurary 90.71%		Time 16.08s
+01/21 06:31:11 PM | Epoch[0] (19456/50000):	Loss 0.2936	Accurary 90.71%		Time 16.08s
+01/21 06:31:11 PM | Epoch[0] (19456/50000):	Loss 0.2936	Accurary 90.71%		Time 16.08s
+01/21 06:31:27 PM | Epoch[0] (24320/50000):	Loss 0.2701	Accurary 91.39%		Time 16.11s
+01/21 06:31:27 PM | Epoch[0] (24320/50000):	Loss 0.2701	Accurary 91.39%		Time 16.11s
+01/21 06:31:27 PM | Epoch[0] (24320/50000):	Loss 0.2701	Accurary 91.39%		Time 16.11s
+01/21 06:31:43 PM | Epoch[0] (29184/50000):	Loss 0.2548	Accurary 91.81%		Time 15.70s
+01/21 06:31:43 PM | Epoch[0] (29184/50000):	Loss 0.2548	Accurary 91.81%		Time 15.70s
+01/21 06:31:43 PM | Epoch[0] (29184/50000):	Loss 0.2548	Accurary 91.81%		Time 15.70s
+01/21 06:31:59 PM | Epoch[0] (34048/50000):	Loss 0.2420	Accurary 92.18%		Time 16.21s
+01/21 06:31:59 PM | Epoch[0] (34048/50000):	Loss 0.2420	Accurary 92.18%		Time 16.21s
+01/21 06:31:59 PM | Epoch[0] (34048/50000):	Loss 0.2420	Accurary 92.18%		Time 16.21s
+01/21 06:32:15 PM | Epoch[0] (38912/50000):	Loss 0.2345	Accurary 92.39%		Time 15.50s
+01/21 06:32:15 PM | Epoch[0] (38912/50000):	Loss 0.2345	Accurary 92.39%		Time 15.50s
+01/21 06:32:15 PM | Epoch[0] (38912/50000):	Loss 0.2345	Accurary 92.39%		Time 15.50s
+01/21 06:32:31 PM | Epoch[0] (43776/50000):	Loss 0.2277	Accurary 92.60%		Time 16.12s
+01/21 06:32:31 PM | Epoch[0] (43776/50000):	Loss 0.2277	Accurary 92.60%		Time 16.12s
+01/21 06:32:31 PM | Epoch[0] (43776/50000):	Loss 0.2277	Accurary 92.60%		Time 16.12s
+01/21 06:32:46 PM | Epoch[0] (48640/50000):	Loss 0.2215	Accurary 92.76%		Time 15.46s
+01/21 06:32:46 PM | Epoch[0] (48640/50000):	Loss 0.2215	Accurary 92.76%		Time 15.46s
+01/21 06:32:46 PM | Epoch[0] (48640/50000):	Loss 0.2215	Accurary 92.76%		Time 15.46s
+01/21 06:32:54 PM | Test Loss 0.3747	Accurary 88.16%		Time 4.41s
+
+01/21 06:32:54 PM | Test Loss 0.3747	Accurary 88.16%		Time 4.41s
+
+01/21 06:32:54 PM | Test Loss 0.3747	Accurary 88.16%		Time 4.41s
+
+01/21 06:33:20 PM | Epoch[1] (4864/50000):	Loss 0.1541	Accurary 94.98%		Time 25.99s
+01/21 06:33:20 PM | Epoch[1] (4864/50000):	Loss 0.1541	Accurary 94.98%		Time 25.99s
+01/21 06:33:20 PM | Epoch[1] (4864/50000):	Loss 0.1541	Accurary 94.98%		Time 25.99s
+01/21 06:33:42 PM | Epoch[1] (9728/50000):	Loss 0.1548	Accurary 94.90%		Time 21.85s
+01/21 06:33:42 PM | Epoch[1] (9728/50000):	Loss 0.1548	Accurary 94.90%		Time 21.85s
+01/21 06:33:42 PM | Epoch[1] (9728/50000):	Loss 0.1548	Accurary 94.90%		Time 21.85s
+01/21 06:34:04 PM | Epoch[1] (14592/50000):	Loss 0.1500	Accurary 95.08%		Time 21.64s
+01/21 06:34:04 PM | Epoch[1] (14592/50000):	Loss 0.1500	Accurary 95.08%		Time 21.64s
+01/21 06:34:04 PM | Epoch[1] (14592/50000):	Loss 0.1500	Accurary 95.08%		Time 21.64s
+01/21 06:34:25 PM | Epoch[1] (19456/50000):	Loss 0.1521	Accurary 95.04%		Time 21.03s
+01/21 06:34:25 PM | Epoch[1] (19456/50000):	Loss 0.1521	Accurary 95.04%		Time 21.03s
+01/21 06:34:25 PM | Epoch[1] (19456/50000):	Loss 0.1521	Accurary 95.04%		Time 21.03s
+01/21 06:34:46 PM | Epoch[1] (24320/50000):	Loss 0.1512	Accurary 95.06%		Time 21.06s
+01/21 06:34:46 PM | Epoch[1] (24320/50000):	Loss 0.1512	Accurary 95.06%		Time 21.06s
+01/21 06:34:46 PM | Epoch[1] (24320/50000):	Loss 0.1512	Accurary 95.06%		Time 21.06s
+01/21 06:35:06 PM | Epoch[1] (29184/50000):	Loss 0.1529	Accurary 94.98%		Time 20.48s
+01/21 06:35:06 PM | Epoch[1] (29184/50000):	Loss 0.1529	Accurary 94.98%		Time 20.48s
+01/21 06:35:06 PM | Epoch[1] (29184/50000):	Loss 0.1529	Accurary 94.98%		Time 20.48s
+01/21 06:35:25 PM | Epoch[1] (34048/50000):	Loss 0.1549	Accurary 94.90%		Time 19.06s
+01/21 06:35:25 PM | Epoch[1] (34048/50000):	Loss 0.1549	Accurary 94.90%		Time 19.06s
+01/21 06:35:25 PM | Epoch[1] (34048/50000):	Loss 0.1549	Accurary 94.90%		Time 19.06s
+01/21 06:35:43 PM | Epoch[1] (38912/50000):	Loss 0.1574	Accurary 94.78%		Time 17.46s
+01/21 06:35:43 PM | Epoch[1] (38912/50000):	Loss 0.1574	Accurary 94.78%		Time 17.46s
+01/21 06:35:43 PM | Epoch[1] (38912/50000):	Loss 0.1574	Accurary 94.78%		Time 17.46s
+01/21 06:36:00 PM | Epoch[1] (43776/50000):	Loss 0.1600	Accurary 94.69%		Time 17.64s
+01/21 06:36:00 PM | Epoch[1] (43776/50000):	Loss 0.1600	Accurary 94.69%		Time 17.64s
+01/21 06:36:00 PM | Epoch[1] (43776/50000):	Loss 0.1600	Accurary 94.69%		Time 17.64s
+01/21 06:36:18 PM | Epoch[1] (48640/50000):	Loss 0.1620	Accurary 94.59%		Time 17.91s
+01/21 06:36:18 PM | Epoch[1] (48640/50000):	Loss 0.1620	Accurary 94.59%		Time 17.91s
+01/21 06:36:18 PM | Epoch[1] (48640/50000):	Loss 0.1620	Accurary 94.59%		Time 17.91s
+01/21 06:36:27 PM | Test Loss 0.4711	Accurary 85.55%		Time 4.43s
+
+01/21 06:36:27 PM | Test Loss 0.4711	Accurary 85.55%		Time 4.43s
+
+01/21 06:36:27 PM | Test Loss 0.4711	Accurary 85.55%		Time 4.43s
+
+01/21 06:36:27 PM | ############# model0:88.15999603271484 #################
+01/21 06:36:27 PM | ############# model0:88.15999603271484 #################
+01/21 06:36:27 PM | ############# model0:88.15999603271484 #################
+01/21 06:39:03 PM | Epoch[0] (4864/50000):	Loss 0.4436	Accurary 86.43%		Time 24.78s
+01/21 06:39:03 PM | Epoch[0] (4864/50000):	Loss 0.4436	Accurary 86.43%		Time 24.78s
+01/21 06:39:03 PM | Epoch[0] (4864/50000):	Loss 0.4436	Accurary 86.43%		Time 24.78s
+01/21 06:39:03 PM | Epoch[0] (4864/50000):	Loss 0.4436	Accurary 86.43%		Time 24.78s
+01/21 06:39:03 PM | Epoch[0] (4864/50000):	Loss 0.4436	Accurary 86.43%		Time 24.78s
+01/21 06:39:22 PM | Epoch[0] (9728/50000):	Loss 0.3625	Accurary 88.49%		Time 19.91s
+01/21 06:39:22 PM | Epoch[0] (9728/50000):	Loss 0.3625	Accurary 88.49%		Time 19.91s
+01/21 06:39:22 PM | Epoch[0] (9728/50000):	Loss 0.3625	Accurary 88.49%		Time 19.91s
+01/21 06:39:22 PM | Epoch[0] (9728/50000):	Loss 0.3625	Accurary 88.49%		Time 19.91s
+01/21 06:39:22 PM | Epoch[0] (9728/50000):	Loss 0.3625	Accurary 88.49%		Time 19.91s
+01/21 06:39:42 PM | Epoch[0] (14592/50000):	Loss 0.3107	Accurary 90.10%		Time 20.03s
+01/21 06:39:42 PM | Epoch[0] (14592/50000):	Loss 0.3107	Accurary 90.10%		Time 20.03s
+01/21 06:39:42 PM | Epoch[0] (14592/50000):	Loss 0.3107	Accurary 90.10%		Time 20.03s
+01/21 06:39:42 PM | Epoch[0] (14592/50000):	Loss 0.3107	Accurary 90.10%		Time 20.03s
+01/21 06:39:42 PM | Epoch[0] (14592/50000):	Loss 0.3107	Accurary 90.10%		Time 20.03s
+01/21 06:40:03 PM | Epoch[0] (19456/50000):	Loss 0.2804	Accurary 90.98%		Time 20.26s
+01/21 06:40:03 PM | Epoch[0] (19456/50000):	Loss 0.2804	Accurary 90.98%		Time 20.26s
+01/21 06:40:03 PM | Epoch[0] (19456/50000):	Loss 0.2804	Accurary 90.98%		Time 20.26s
+01/21 06:40:03 PM | Epoch[0] (19456/50000):	Loss 0.2804	Accurary 90.98%		Time 20.26s
+01/21 06:40:03 PM | Epoch[0] (19456/50000):	Loss 0.2804	Accurary 90.98%		Time 20.26s
+01/21 06:40:23 PM | Epoch[0] (24320/50000):	Loss 0.2574	Accurary 91.69%		Time 20.49s
+01/21 06:40:23 PM | Epoch[0] (24320/50000):	Loss 0.2574	Accurary 91.69%		Time 20.49s
+01/21 06:40:23 PM | Epoch[0] (24320/50000):	Loss 0.2574	Accurary 91.69%		Time 20.49s
+01/21 06:40:23 PM | Epoch[0] (24320/50000):	Loss 0.2574	Accurary 91.69%		Time 20.49s
+01/21 06:40:23 PM | Epoch[0] (24320/50000):	Loss 0.2574	Accurary 91.69%		Time 20.49s
+01/21 06:40:43 PM | Epoch[0] (29184/50000):	Loss 0.2434	Accurary 92.09%		Time 19.87s
+01/21 06:40:43 PM | Epoch[0] (29184/50000):	Loss 0.2434	Accurary 92.09%		Time 19.87s
+01/21 06:40:43 PM | Epoch[0] (29184/50000):	Loss 0.2434	Accurary 92.09%		Time 19.87s
+01/21 06:40:43 PM | Epoch[0] (29184/50000):	Loss 0.2434	Accurary 92.09%		Time 19.87s
+01/21 06:40:43 PM | Epoch[0] (29184/50000):	Loss 0.2434	Accurary 92.09%		Time 19.87s
+01/21 06:41:03 PM | Epoch[0] (34048/50000):	Loss 0.2326	Accurary 92.40%		Time 19.98s
+01/21 06:41:03 PM | Epoch[0] (34048/50000):	Loss 0.2326	Accurary 92.40%		Time 19.98s
+01/21 06:41:03 PM | Epoch[0] (34048/50000):	Loss 0.2326	Accurary 92.40%		Time 19.98s
+01/21 06:41:03 PM | Epoch[0] (34048/50000):	Loss 0.2326	Accurary 92.40%		Time 19.98s
+01/21 06:41:03 PM | Epoch[0] (34048/50000):	Loss 0.2326	Accurary 92.40%		Time 19.98s
+01/21 06:41:23 PM | Epoch[0] (38912/50000):	Loss 0.2267	Accurary 92.60%		Time 19.83s
+01/21 06:41:23 PM | Epoch[0] (38912/50000):	Loss 0.2267	Accurary 92.60%		Time 19.83s
+01/21 06:41:23 PM | Epoch[0] (38912/50000):	Loss 0.2267	Accurary 92.60%		Time 19.83s
+01/21 06:41:23 PM | Epoch[0] (38912/50000):	Loss 0.2267	Accurary 92.60%		Time 19.83s
+01/21 06:41:23 PM | Epoch[0] (38912/50000):	Loss 0.2267	Accurary 92.60%		Time 19.83s
+01/21 06:41:43 PM | Epoch[0] (43776/50000):	Loss 0.2207	Accurary 92.77%		Time 20.47s
+01/21 06:41:43 PM | Epoch[0] (43776/50000):	Loss 0.2207	Accurary 92.77%		Time 20.47s
+01/21 06:41:43 PM | Epoch[0] (43776/50000):	Loss 0.2207	Accurary 92.77%		Time 20.47s
+01/21 06:41:43 PM | Epoch[0] (43776/50000):	Loss 0.2207	Accurary 92.77%		Time 20.47s
+01/21 06:41:43 PM | Epoch[0] (43776/50000):	Loss 0.2207	Accurary 92.77%		Time 20.47s
+01/21 06:42:03 PM | Epoch[0] (48640/50000):	Loss 0.2170	Accurary 92.85%		Time 20.05s
+01/21 06:42:03 PM | Epoch[0] (48640/50000):	Loss 0.2170	Accurary 92.85%		Time 20.05s
+01/21 06:42:03 PM | Epoch[0] (48640/50000):	Loss 0.2170	Accurary 92.85%		Time 20.05s
+01/21 06:42:03 PM | Epoch[0] (48640/50000):	Loss 0.2170	Accurary 92.85%		Time 20.05s
+01/21 06:42:03 PM | Epoch[0] (48640/50000):	Loss 0.2170	Accurary 92.85%		Time 20.05s
+01/21 06:42:13 PM | Test Loss 0.4028	Accurary 87.03%		Time 4.64s
+
+01/21 06:42:13 PM | Test Loss 0.4028	Accurary 87.03%		Time 4.64s
+
+01/21 06:42:13 PM | Test Loss 0.4028	Accurary 87.03%		Time 4.64s
+
+01/21 06:42:13 PM | Test Loss 0.4028	Accurary 87.03%		Time 4.64s
+
+01/21 06:42:13 PM | Test Loss 0.4028	Accurary 87.03%		Time 4.64s
+
+01/21 06:42:38 PM | Epoch[1] (4864/50000):	Loss 0.1807	Accurary 93.89%		Time 25.43s
+01/21 06:42:38 PM | Epoch[1] (4864/50000):	Loss 0.1807	Accurary 93.89%		Time 25.43s
+01/21 06:42:38 PM | Epoch[1] (4864/50000):	Loss 0.1807	Accurary 93.89%		Time 25.43s
+01/21 06:42:38 PM | Epoch[1] (4864/50000):	Loss 0.1807	Accurary 93.89%		Time 25.43s
+01/21 06:42:38 PM | Epoch[1] (4864/50000):	Loss 0.1807	Accurary 93.89%		Time 25.43s
+01/21 06:42:58 PM | Epoch[1] (9728/50000):	Loss 0.1610	Accurary 94.68%		Time 19.81s
+01/21 06:42:58 PM | Epoch[1] (9728/50000):	Loss 0.1610	Accurary 94.68%		Time 19.81s
+01/21 06:42:58 PM | Epoch[1] (9728/50000):	Loss 0.1610	Accurary 94.68%		Time 19.81s
+01/21 06:42:58 PM | Epoch[1] (9728/50000):	Loss 0.1610	Accurary 94.68%		Time 19.81s
+01/21 06:42:58 PM | Epoch[1] (9728/50000):	Loss 0.1610	Accurary 94.68%		Time 19.81s
+01/21 06:43:18 PM | Epoch[1] (14592/50000):	Loss 0.1554	Accurary 94.79%		Time 19.87s
+01/21 06:43:18 PM | Epoch[1] (14592/50000):	Loss 0.1554	Accurary 94.79%		Time 19.87s
+01/21 06:43:18 PM | Epoch[1] (14592/50000):	Loss 0.1554	Accurary 94.79%		Time 19.87s
+01/21 06:43:18 PM | Epoch[1] (14592/50000):	Loss 0.1554	Accurary 94.79%		Time 19.87s
+01/21 06:43:18 PM | Epoch[1] (14592/50000):	Loss 0.1554	Accurary 94.79%		Time 19.87s
+01/21 06:43:38 PM | Epoch[1] (19456/50000):	Loss 0.1592	Accurary 94.59%		Time 20.81s
+01/21 06:43:38 PM | Epoch[1] (19456/50000):	Loss 0.1592	Accurary 94.59%		Time 20.81s
+01/21 06:43:38 PM | Epoch[1] (19456/50000):	Loss 0.1592	Accurary 94.59%		Time 20.81s
+01/21 06:43:38 PM | Epoch[1] (19456/50000):	Loss 0.1592	Accurary 94.59%		Time 20.81s
+01/21 06:43:38 PM | Epoch[1] (19456/50000):	Loss 0.1592	Accurary 94.59%		Time 20.81s
+01/21 06:43:59 PM | Epoch[1] (24320/50000):	Loss 0.1657	Accurary 94.35%		Time 20.49s
+01/21 06:43:59 PM | Epoch[1] (24320/50000):	Loss 0.1657	Accurary 94.35%		Time 20.49s
+01/21 06:43:59 PM | Epoch[1] (24320/50000):	Loss 0.1657	Accurary 94.35%		Time 20.49s
+01/21 06:43:59 PM | Epoch[1] (24320/50000):	Loss 0.1657	Accurary 94.35%		Time 20.49s
+01/21 06:43:59 PM | Epoch[1] (24320/50000):	Loss 0.1657	Accurary 94.35%		Time 20.49s
+01/21 06:44:20 PM | Epoch[1] (29184/50000):	Loss 0.1673	Accurary 94.27%		Time 20.66s
+01/21 06:44:20 PM | Epoch[1] (29184/50000):	Loss 0.1673	Accurary 94.27%		Time 20.66s
+01/21 06:44:20 PM | Epoch[1] (29184/50000):	Loss 0.1673	Accurary 94.27%		Time 20.66s
+01/21 06:44:20 PM | Epoch[1] (29184/50000):	Loss 0.1673	Accurary 94.27%		Time 20.66s
+01/21 06:44:20 PM | Epoch[1] (29184/50000):	Loss 0.1673	Accurary 94.27%		Time 20.66s
+01/21 06:44:41 PM | Epoch[1] (34048/50000):	Loss 0.1684	Accurary 94.23%		Time 21.34s
+01/21 06:44:41 PM | Epoch[1] (34048/50000):	Loss 0.1684	Accurary 94.23%		Time 21.34s
+01/21 06:44:41 PM | Epoch[1] (34048/50000):	Loss 0.1684	Accurary 94.23%		Time 21.34s
+01/21 06:44:41 PM | Epoch[1] (34048/50000):	Loss 0.1684	Accurary 94.23%		Time 21.34s
+01/21 06:44:41 PM | Epoch[1] (34048/50000):	Loss 0.1684	Accurary 94.23%		Time 21.34s
+01/21 06:45:02 PM | Epoch[1] (38912/50000):	Loss 0.1692	Accurary 94.22%		Time 21.06s
+01/21 06:45:02 PM | Epoch[1] (38912/50000):	Loss 0.1692	Accurary 94.22%		Time 21.06s
+01/21 06:45:02 PM | Epoch[1] (38912/50000):	Loss 0.1692	Accurary 94.22%		Time 21.06s
+01/21 06:45:02 PM | Epoch[1] (38912/50000):	Loss 0.1692	Accurary 94.22%		Time 21.06s
+01/21 06:45:02 PM | Epoch[1] (38912/50000):	Loss 0.1692	Accurary 94.22%		Time 21.06s
+01/21 06:45:24 PM | Epoch[1] (43776/50000):	Loss 0.1675	Accurary 94.27%		Time 21.52s
+01/21 06:45:24 PM | Epoch[1] (43776/50000):	Loss 0.1675	Accurary 94.27%		Time 21.52s
+01/21 06:45:24 PM | Epoch[1] (43776/50000):	Loss 0.1675	Accurary 94.27%		Time 21.52s
+01/21 06:45:24 PM | Epoch[1] (43776/50000):	Loss 0.1675	Accurary 94.27%		Time 21.52s
+01/21 06:45:24 PM | Epoch[1] (43776/50000):	Loss 0.1675	Accurary 94.27%		Time 21.52s
+01/21 06:45:44 PM | Epoch[1] (48640/50000):	Loss 0.1705	Accurary 94.21%		Time 20.83s
+01/21 06:45:44 PM | Epoch[1] (48640/50000):	Loss 0.1705	Accurary 94.21%		Time 20.83s
+01/21 06:45:44 PM | Epoch[1] (48640/50000):	Loss 0.1705	Accurary 94.21%		Time 20.83s
+01/21 06:45:44 PM | Epoch[1] (48640/50000):	Loss 0.1705	Accurary 94.21%		Time 20.83s
+01/21 06:45:44 PM | Epoch[1] (48640/50000):	Loss 0.1705	Accurary 94.21%		Time 20.83s
+01/21 06:45:54 PM | Test Loss 0.4237	Accurary 87.09%		Time 4.98s
+
+01/21 06:45:54 PM | Test Loss 0.4237	Accurary 87.09%		Time 4.98s
+
+01/21 06:45:54 PM | Test Loss 0.4237	Accurary 87.09%		Time 4.98s
+
+01/21 06:45:54 PM | Test Loss 0.4237	Accurary 87.09%		Time 4.98s
+
+01/21 06:45:54 PM | Test Loss 0.4237	Accurary 87.09%		Time 4.98s
+
+01/21 06:45:54 PM | ############# model0_2epoch:87.08999633789062 using 436.34533643722534s #################
+01/21 06:45:54 PM | ############# model0_2epoch:87.08999633789062 using 436.34533643722534s #################
+01/21 06:45:54 PM | ############# model0_2epoch:87.08999633789062 using 436.34533643722534s #################
+01/21 06:45:54 PM | ############# model0_2epoch:87.08999633789062 using 436.34533643722534s #################
+01/21 06:45:54 PM | ############# model0_2epoch:87.08999633789062 using 436.34533643722534s #################
+01/21 06:46:16 PM | Epoch[0] (4864/50000):	Loss 0.4871	Accurary 85.51%		Time 21.60s
+01/21 06:46:16 PM | Epoch[0] (4864/50000):	Loss 0.4871	Accurary 85.51%		Time 21.60s
+01/21 06:46:16 PM | Epoch[0] (4864/50000):	Loss 0.4871	Accurary 85.51%		Time 21.60s
+01/21 06:46:16 PM | Epoch[0] (4864/50000):	Loss 0.4871	Accurary 85.51%		Time 21.60s
+01/21 06:46:16 PM | Epoch[0] (4864/50000):	Loss 0.4871	Accurary 85.51%		Time 21.60s
+01/21 06:46:32 PM | Epoch[0] (9728/50000):	Loss 0.3904	Accurary 87.85%		Time 16.39s
+01/21 06:46:32 PM | Epoch[0] (9728/50000):	Loss 0.3904	Accurary 87.85%		Time 16.39s
+01/21 06:46:32 PM | Epoch[0] (9728/50000):	Loss 0.3904	Accurary 87.85%		Time 16.39s
+01/21 06:46:32 PM | Epoch[0] (9728/50000):	Loss 0.3904	Accurary 87.85%		Time 16.39s
+01/21 06:46:32 PM | Epoch[0] (9728/50000):	Loss 0.3904	Accurary 87.85%		Time 16.39s
+01/21 06:46:49 PM | Epoch[0] (14592/50000):	Loss 0.3334	Accurary 89.41%		Time 16.63s
+01/21 06:46:49 PM | Epoch[0] (14592/50000):	Loss 0.3334	Accurary 89.41%		Time 16.63s
+01/21 06:46:49 PM | Epoch[0] (14592/50000):	Loss 0.3334	Accurary 89.41%		Time 16.63s
+01/21 06:46:49 PM | Epoch[0] (14592/50000):	Loss 0.3334	Accurary 89.41%		Time 16.63s
+01/21 06:46:49 PM | Epoch[0] (14592/50000):	Loss 0.3334	Accurary 89.41%		Time 16.63s
+01/21 06:47:06 PM | Epoch[0] (19456/50000):	Loss 0.3004	Accurary 90.44%		Time 16.73s
+01/21 06:47:06 PM | Epoch[0] (19456/50000):	Loss 0.3004	Accurary 90.44%		Time 16.73s
+01/21 06:47:06 PM | Epoch[0] (19456/50000):	Loss 0.3004	Accurary 90.44%		Time 16.73s
+01/21 06:47:06 PM | Epoch[0] (19456/50000):	Loss 0.3004	Accurary 90.44%		Time 16.73s
+01/21 06:47:06 PM | Epoch[0] (19456/50000):	Loss 0.3004	Accurary 90.44%		Time 16.73s
+01/21 06:47:23 PM | Epoch[0] (24320/50000):	Loss 0.2741	Accurary 91.20%		Time 16.86s
+01/21 06:47:23 PM | Epoch[0] (24320/50000):	Loss 0.2741	Accurary 91.20%		Time 16.86s
+01/21 06:47:23 PM | Epoch[0] (24320/50000):	Loss 0.2741	Accurary 91.20%		Time 16.86s
+01/21 06:47:23 PM | Epoch[0] (24320/50000):	Loss 0.2741	Accurary 91.20%		Time 16.86s
+01/21 06:47:23 PM | Epoch[0] (24320/50000):	Loss 0.2741	Accurary 91.20%		Time 16.86s
+01/21 06:47:39 PM | Epoch[0] (29184/50000):	Loss 0.2582	Accurary 91.65%		Time 16.42s
+01/21 06:47:39 PM | Epoch[0] (29184/50000):	Loss 0.2582	Accurary 91.65%		Time 16.42s
+01/21 06:47:39 PM | Epoch[0] (29184/50000):	Loss 0.2582	Accurary 91.65%		Time 16.42s
+01/21 06:47:39 PM | Epoch[0] (29184/50000):	Loss 0.2582	Accurary 91.65%		Time 16.42s
+01/21 06:47:39 PM | Epoch[0] (29184/50000):	Loss 0.2582	Accurary 91.65%		Time 16.42s
+01/21 06:47:55 PM | Epoch[0] (34048/50000):	Loss 0.2480	Accurary 91.90%		Time 16.29s
+01/21 06:47:55 PM | Epoch[0] (34048/50000):	Loss 0.2480	Accurary 91.90%		Time 16.29s
+01/21 06:47:55 PM | Epoch[0] (34048/50000):	Loss 0.2480	Accurary 91.90%		Time 16.29s
+01/21 06:47:55 PM | Epoch[0] (34048/50000):	Loss 0.2480	Accurary 91.90%		Time 16.29s
+01/21 06:47:55 PM | Epoch[0] (34048/50000):	Loss 0.2480	Accurary 91.90%		Time 16.29s
+01/21 06:48:12 PM | Epoch[0] (38912/50000):	Loss 0.2414	Accurary 92.09%		Time 16.34s
+01/21 06:48:12 PM | Epoch[0] (38912/50000):	Loss 0.2414	Accurary 92.09%		Time 16.34s
+01/21 06:48:12 PM | Epoch[0] (38912/50000):	Loss 0.2414	Accurary 92.09%		Time 16.34s
+01/21 06:48:12 PM | Epoch[0] (38912/50000):	Loss 0.2414	Accurary 92.09%		Time 16.34s
+01/21 06:48:12 PM | Epoch[0] (38912/50000):	Loss 0.2414	Accurary 92.09%		Time 16.34s
+01/21 06:48:28 PM | Epoch[0] (43776/50000):	Loss 0.2346	Accurary 92.28%		Time 16.09s
+01/21 06:48:28 PM | Epoch[0] (43776/50000):	Loss 0.2346	Accurary 92.28%		Time 16.09s
+01/21 06:48:28 PM | Epoch[0] (43776/50000):	Loss 0.2346	Accurary 92.28%		Time 16.09s
+01/21 06:48:28 PM | Epoch[0] (43776/50000):	Loss 0.2346	Accurary 92.28%		Time 16.09s
+01/21 06:48:28 PM | Epoch[0] (43776/50000):	Loss 0.2346	Accurary 92.28%		Time 16.09s
+01/21 06:48:44 PM | Epoch[0] (48640/50000):	Loss 0.2290	Accurary 92.45%		Time 16.01s
+01/21 06:48:44 PM | Epoch[0] (48640/50000):	Loss 0.2290	Accurary 92.45%		Time 16.01s
+01/21 06:48:44 PM | Epoch[0] (48640/50000):	Loss 0.2290	Accurary 92.45%		Time 16.01s
+01/21 06:48:44 PM | Epoch[0] (48640/50000):	Loss 0.2290	Accurary 92.45%		Time 16.01s
+01/21 06:48:44 PM | Epoch[0] (48640/50000):	Loss 0.2290	Accurary 92.45%		Time 16.01s
+01/21 06:48:52 PM | Test Loss 0.4080	Accurary 86.86%		Time 4.50s
+
+01/21 06:48:52 PM | Test Loss 0.4080	Accurary 86.86%		Time 4.50s
+
+01/21 06:48:52 PM | Test Loss 0.4080	Accurary 86.86%		Time 4.50s
+
+01/21 06:48:52 PM | Test Loss 0.4080	Accurary 86.86%		Time 4.50s
+
+01/21 06:48:52 PM | Test Loss 0.4080	Accurary 86.86%		Time 4.50s
+
+01/21 06:49:13 PM | Epoch[1] (4864/50000):	Loss 0.1534	Accurary 94.90%		Time 20.57s
+01/21 06:49:13 PM | Epoch[1] (4864/50000):	Loss 0.1534	Accurary 94.90%		Time 20.57s
+01/21 06:49:13 PM | Epoch[1] (4864/50000):	Loss 0.1534	Accurary 94.90%		Time 20.57s
+01/21 06:49:13 PM | Epoch[1] (4864/50000):	Loss 0.1534	Accurary 94.90%		Time 20.57s
+01/21 06:49:13 PM | Epoch[1] (4864/50000):	Loss 0.1534	Accurary 94.90%		Time 20.57s
+01/21 06:49:29 PM | Epoch[1] (9728/50000):	Loss 0.1567	Accurary 94.94%		Time 16.38s
+01/21 06:49:29 PM | Epoch[1] (9728/50000):	Loss 0.1567	Accurary 94.94%		Time 16.38s
+01/21 06:49:29 PM | Epoch[1] (9728/50000):	Loss 0.1567	Accurary 94.94%		Time 16.38s
+01/21 06:49:29 PM | Epoch[1] (9728/50000):	Loss 0.1567	Accurary 94.94%		Time 16.38s
+01/21 06:49:29 PM | Epoch[1] (9728/50000):	Loss 0.1567	Accurary 94.94%		Time 16.38s
+01/21 06:49:45 PM | Epoch[1] (14592/50000):	Loss 0.1534	Accurary 95.02%		Time 16.26s
+01/21 06:49:45 PM | Epoch[1] (14592/50000):	Loss 0.1534	Accurary 95.02%		Time 16.26s
+01/21 06:49:45 PM | Epoch[1] (14592/50000):	Loss 0.1534	Accurary 95.02%		Time 16.26s
+01/21 06:49:45 PM | Epoch[1] (14592/50000):	Loss 0.1534	Accurary 95.02%		Time 16.26s
+01/21 06:49:45 PM | Epoch[1] (14592/50000):	Loss 0.1534	Accurary 95.02%		Time 16.26s
+01/21 06:50:02 PM | Epoch[1] (19456/50000):	Loss 0.1535	Accurary 94.97%		Time 16.59s
+01/21 06:50:02 PM | Epoch[1] (19456/50000):	Loss 0.1535	Accurary 94.97%		Time 16.59s
+01/21 06:50:02 PM | Epoch[1] (19456/50000):	Loss 0.1535	Accurary 94.97%		Time 16.59s
+01/21 06:50:02 PM | Epoch[1] (19456/50000):	Loss 0.1535	Accurary 94.97%		Time 16.59s
+01/21 06:50:02 PM | Epoch[1] (19456/50000):	Loss 0.1535	Accurary 94.97%		Time 16.59s
+01/21 06:50:18 PM | Epoch[1] (24320/50000):	Loss 0.1548	Accurary 94.87%		Time 16.45s
+01/21 06:50:18 PM | Epoch[1] (24320/50000):	Loss 0.1548	Accurary 94.87%		Time 16.45s
+01/21 06:50:18 PM | Epoch[1] (24320/50000):	Loss 0.1548	Accurary 94.87%		Time 16.45s
+01/21 06:50:18 PM | Epoch[1] (24320/50000):	Loss 0.1548	Accurary 94.87%		Time 16.45s
+01/21 06:50:18 PM | Epoch[1] (24320/50000):	Loss 0.1548	Accurary 94.87%		Time 16.45s
+01/21 06:50:34 PM | Epoch[1] (29184/50000):	Loss 0.1606	Accurary 94.74%		Time 15.96s
+01/21 06:50:34 PM | Epoch[1] (29184/50000):	Loss 0.1606	Accurary 94.74%		Time 15.96s
+01/21 06:50:34 PM | Epoch[1] (29184/50000):	Loss 0.1606	Accurary 94.74%		Time 15.96s
+01/21 06:50:34 PM | Epoch[1] (29184/50000):	Loss 0.1606	Accurary 94.74%		Time 15.96s
+01/21 06:50:34 PM | Epoch[1] (29184/50000):	Loss 0.1606	Accurary 94.74%		Time 15.96s
+01/21 06:50:50 PM | Epoch[1] (34048/50000):	Loss 0.1612	Accurary 94.69%		Time 16.02s
+01/21 06:50:50 PM | Epoch[1] (34048/50000):	Loss 0.1612	Accurary 94.69%		Time 16.02s
+01/21 06:50:50 PM | Epoch[1] (34048/50000):	Loss 0.1612	Accurary 94.69%		Time 16.02s
+01/21 06:50:50 PM | Epoch[1] (34048/50000):	Loss 0.1612	Accurary 94.69%		Time 16.02s
+01/21 06:50:50 PM | Epoch[1] (34048/50000):	Loss 0.1612	Accurary 94.69%		Time 16.02s
+01/21 06:51:06 PM | Epoch[1] (38912/50000):	Loss 0.1611	Accurary 94.68%		Time 15.99s
+01/21 06:51:06 PM | Epoch[1] (38912/50000):	Loss 0.1611	Accurary 94.68%		Time 15.99s
+01/21 06:51:06 PM | Epoch[1] (38912/50000):	Loss 0.1611	Accurary 94.68%		Time 15.99s
+01/21 06:51:06 PM | Epoch[1] (38912/50000):	Loss 0.1611	Accurary 94.68%		Time 15.99s
+01/21 06:51:06 PM | Epoch[1] (38912/50000):	Loss 0.1611	Accurary 94.68%		Time 15.99s
+01/21 06:51:22 PM | Epoch[1] (43776/50000):	Loss 0.1617	Accurary 94.65%		Time 16.20s
+01/21 06:51:22 PM | Epoch[1] (43776/50000):	Loss 0.1617	Accurary 94.65%		Time 16.20s
+01/21 06:51:22 PM | Epoch[1] (43776/50000):	Loss 0.1617	Accurary 94.65%		Time 16.20s
+01/21 06:51:22 PM | Epoch[1] (43776/50000):	Loss 0.1617	Accurary 94.65%		Time 16.20s
+01/21 06:51:22 PM | Epoch[1] (43776/50000):	Loss 0.1617	Accurary 94.65%		Time 16.20s
+01/21 06:51:38 PM | Epoch[1] (48640/50000):	Loss 0.1640	Accurary 94.56%		Time 16.02s
+01/21 06:51:38 PM | Epoch[1] (48640/50000):	Loss 0.1640	Accurary 94.56%		Time 16.02s
+01/21 06:51:38 PM | Epoch[1] (48640/50000):	Loss 0.1640	Accurary 94.56%		Time 16.02s
+01/21 06:51:38 PM | Epoch[1] (48640/50000):	Loss 0.1640	Accurary 94.56%		Time 16.02s
+01/21 06:51:38 PM | Epoch[1] (48640/50000):	Loss 0.1640	Accurary 94.56%		Time 16.02s
+01/21 06:51:47 PM | Test Loss 0.3711	Accurary 87.96%		Time 4.53s
+
+01/21 06:51:47 PM | Test Loss 0.3711	Accurary 87.96%		Time 4.53s
+
+01/21 06:51:47 PM | Test Loss 0.3711	Accurary 87.96%		Time 4.53s
+
+01/21 06:51:47 PM | Test Loss 0.3711	Accurary 87.96%		Time 4.53s
+
+01/21 06:51:47 PM | Test Loss 0.3711	Accurary 87.96%		Time 4.53s
+
+01/21 06:51:47 PM | ############# model1_2epoch:87.95999908447266 using 352.1791751384735s #################
+01/21 06:51:47 PM | ############# model1_2epoch:87.95999908447266 using 352.1791751384735s #################
+01/21 06:51:47 PM | ############# model1_2epoch:87.95999908447266 using 352.1791751384735s #################
+01/21 06:51:47 PM | ############# model1_2epoch:87.95999908447266 using 352.1791751384735s #################
+01/21 06:51:47 PM | ############# model1_2epoch:87.95999908447266 using 352.1791751384735s #################
+01/21 06:52:09 PM | Epoch[0] (4864/50000):	Loss 0.4864	Accurary 84.94%		Time 22.47s
+01/21 06:52:09 PM | Epoch[0] (4864/50000):	Loss 0.4864	Accurary 84.94%		Time 22.47s
+01/21 06:52:09 PM | Epoch[0] (4864/50000):	Loss 0.4864	Accurary 84.94%		Time 22.47s
+01/21 06:52:09 PM | Epoch[0] (4864/50000):	Loss 0.4864	Accurary 84.94%		Time 22.47s
+01/21 06:52:09 PM | Epoch[0] (4864/50000):	Loss 0.4864	Accurary 84.94%		Time 22.47s
+01/21 06:52:27 PM | Epoch[0] (9728/50000):	Loss 0.3771	Accurary 87.78%		Time 17.83s
+01/21 06:52:27 PM | Epoch[0] (9728/50000):	Loss 0.3771	Accurary 87.78%		Time 17.83s
+01/21 06:52:27 PM | Epoch[0] (9728/50000):	Loss 0.3771	Accurary 87.78%		Time 17.83s
+01/21 06:52:27 PM | Epoch[0] (9728/50000):	Loss 0.3771	Accurary 87.78%		Time 17.83s
+01/21 06:52:27 PM | Epoch[0] (9728/50000):	Loss 0.3771	Accurary 87.78%		Time 17.83s
+01/21 06:52:45 PM | Epoch[0] (14592/50000):	Loss 0.3245	Accurary 89.45%		Time 17.69s
+01/21 06:52:45 PM | Epoch[0] (14592/50000):	Loss 0.3245	Accurary 89.45%		Time 17.69s
+01/21 06:52:45 PM | Epoch[0] (14592/50000):	Loss 0.3245	Accurary 89.45%		Time 17.69s
+01/21 06:52:45 PM | Epoch[0] (14592/50000):	Loss 0.3245	Accurary 89.45%		Time 17.69s
+01/21 06:52:45 PM | Epoch[0] (14592/50000):	Loss 0.3245	Accurary 89.45%		Time 17.69s
+01/21 06:53:03 PM | Epoch[0] (19456/50000):	Loss 0.2895	Accurary 90.59%		Time 17.72s
+01/21 06:53:03 PM | Epoch[0] (19456/50000):	Loss 0.2895	Accurary 90.59%		Time 17.72s
+01/21 06:53:03 PM | Epoch[0] (19456/50000):	Loss 0.2895	Accurary 90.59%		Time 17.72s
+01/21 06:53:03 PM | Epoch[0] (19456/50000):	Loss 0.2895	Accurary 90.59%		Time 17.72s
+01/21 06:53:03 PM | Epoch[0] (19456/50000):	Loss 0.2895	Accurary 90.59%		Time 17.72s
+01/21 06:53:20 PM | Epoch[0] (24320/50000):	Loss 0.2653	Accurary 91.34%		Time 17.77s
+01/21 06:53:20 PM | Epoch[0] (24320/50000):	Loss 0.2653	Accurary 91.34%		Time 17.77s
+01/21 06:53:20 PM | Epoch[0] (24320/50000):	Loss 0.2653	Accurary 91.34%		Time 17.77s
+01/21 06:53:20 PM | Epoch[0] (24320/50000):	Loss 0.2653	Accurary 91.34%		Time 17.77s
+01/21 06:53:20 PM | Epoch[0] (24320/50000):	Loss 0.2653	Accurary 91.34%		Time 17.77s
+01/21 06:53:38 PM | Epoch[0] (29184/50000):	Loss 0.2518	Accurary 91.72%		Time 17.72s
+01/21 06:53:38 PM | Epoch[0] (29184/50000):	Loss 0.2518	Accurary 91.72%		Time 17.72s
+01/21 06:53:38 PM | Epoch[0] (29184/50000):	Loss 0.2518	Accurary 91.72%		Time 17.72s
+01/21 06:53:38 PM | Epoch[0] (29184/50000):	Loss 0.2518	Accurary 91.72%		Time 17.72s
+01/21 06:53:38 PM | Epoch[0] (29184/50000):	Loss 0.2518	Accurary 91.72%		Time 17.72s
+01/21 06:53:56 PM | Epoch[0] (34048/50000):	Loss 0.2416	Accurary 92.04%		Time 17.91s
+01/21 06:53:56 PM | Epoch[0] (34048/50000):	Loss 0.2416	Accurary 92.04%		Time 17.91s
+01/21 06:53:56 PM | Epoch[0] (34048/50000):	Loss 0.2416	Accurary 92.04%		Time 17.91s
+01/21 06:53:56 PM | Epoch[0] (34048/50000):	Loss 0.2416	Accurary 92.04%		Time 17.91s
+01/21 06:53:56 PM | Epoch[0] (34048/50000):	Loss 0.2416	Accurary 92.04%		Time 17.91s
+01/21 06:54:14 PM | Epoch[0] (38912/50000):	Loss 0.2326	Accurary 92.30%		Time 17.93s
+01/21 06:54:14 PM | Epoch[0] (38912/50000):	Loss 0.2326	Accurary 92.30%		Time 17.93s
+01/21 06:54:14 PM | Epoch[0] (38912/50000):	Loss 0.2326	Accurary 92.30%		Time 17.93s
+01/21 06:54:14 PM | Epoch[0] (38912/50000):	Loss 0.2326	Accurary 92.30%		Time 17.93s
+01/21 06:54:14 PM | Epoch[0] (38912/50000):	Loss 0.2326	Accurary 92.30%		Time 17.93s
+01/21 06:54:32 PM | Epoch[0] (43776/50000):	Loss 0.2251	Accurary 92.53%		Time 17.81s
+01/21 06:54:32 PM | Epoch[0] (43776/50000):	Loss 0.2251	Accurary 92.53%		Time 17.81s
+01/21 06:54:32 PM | Epoch[0] (43776/50000):	Loss 0.2251	Accurary 92.53%		Time 17.81s
+01/21 06:54:32 PM | Epoch[0] (43776/50000):	Loss 0.2251	Accurary 92.53%		Time 17.81s
+01/21 06:54:32 PM | Epoch[0] (43776/50000):	Loss 0.2251	Accurary 92.53%		Time 17.81s
+01/21 06:54:49 PM | Epoch[0] (48640/50000):	Loss 0.2201	Accurary 92.72%		Time 17.66s
+01/21 06:54:49 PM | Epoch[0] (48640/50000):	Loss 0.2201	Accurary 92.72%		Time 17.66s
+01/21 06:54:49 PM | Epoch[0] (48640/50000):	Loss 0.2201	Accurary 92.72%		Time 17.66s
+01/21 06:54:49 PM | Epoch[0] (48640/50000):	Loss 0.2201	Accurary 92.72%		Time 17.66s
+01/21 06:54:49 PM | Epoch[0] (48640/50000):	Loss 0.2201	Accurary 92.72%		Time 17.66s
+01/21 06:54:59 PM | Test Loss 0.3663	Accurary 88.31%		Time 5.25s
+
+01/21 06:54:59 PM | Test Loss 0.3663	Accurary 88.31%		Time 5.25s
+
+01/21 06:54:59 PM | Test Loss 0.3663	Accurary 88.31%		Time 5.25s
+
+01/21 06:54:59 PM | Test Loss 0.3663	Accurary 88.31%		Time 5.25s
+
+01/21 06:54:59 PM | Test Loss 0.3663	Accurary 88.31%		Time 5.25s
+
+01/21 06:55:21 PM | Epoch[1] (4864/50000):	Loss 0.1671	Accurary 94.39%		Time 22.52s
+01/21 06:55:21 PM | Epoch[1] (4864/50000):	Loss 0.1671	Accurary 94.39%		Time 22.52s
+01/21 06:55:21 PM | Epoch[1] (4864/50000):	Loss 0.1671	Accurary 94.39%		Time 22.52s
+01/21 06:55:21 PM | Epoch[1] (4864/50000):	Loss 0.1671	Accurary 94.39%		Time 22.52s
+01/21 06:55:21 PM | Epoch[1] (4864/50000):	Loss 0.1671	Accurary 94.39%		Time 22.52s
+01/21 06:55:39 PM | Epoch[1] (9728/50000):	Loss 0.1584	Accurary 94.68%		Time 17.70s
+01/21 06:55:39 PM | Epoch[1] (9728/50000):	Loss 0.1584	Accurary 94.68%		Time 17.70s
+01/21 06:55:39 PM | Epoch[1] (9728/50000):	Loss 0.1584	Accurary 94.68%		Time 17.70s
+01/21 06:55:39 PM | Epoch[1] (9728/50000):	Loss 0.1584	Accurary 94.68%		Time 17.70s
+01/21 06:55:39 PM | Epoch[1] (9728/50000):	Loss 0.1584	Accurary 94.68%		Time 17.70s
+01/21 06:55:57 PM | Epoch[1] (14592/50000):	Loss 0.1575	Accurary 94.73%		Time 18.28s
+01/21 06:55:57 PM | Epoch[1] (14592/50000):	Loss 0.1575	Accurary 94.73%		Time 18.28s
+01/21 06:55:57 PM | Epoch[1] (14592/50000):	Loss 0.1575	Accurary 94.73%		Time 18.28s
+01/21 06:55:57 PM | Epoch[1] (14592/50000):	Loss 0.1575	Accurary 94.73%		Time 18.28s
+01/21 06:55:57 PM | Epoch[1] (14592/50000):	Loss 0.1575	Accurary 94.73%		Time 18.28s
+01/21 06:56:15 PM | Epoch[1] (19456/50000):	Loss 0.1628	Accurary 94.46%		Time 17.87s
+01/21 06:56:15 PM | Epoch[1] (19456/50000):	Loss 0.1628	Accurary 94.46%		Time 17.87s
+01/21 06:56:15 PM | Epoch[1] (19456/50000):	Loss 0.1628	Accurary 94.46%		Time 17.87s
+01/21 06:56:15 PM | Epoch[1] (19456/50000):	Loss 0.1628	Accurary 94.46%		Time 17.87s
+01/21 06:56:15 PM | Epoch[1] (19456/50000):	Loss 0.1628	Accurary 94.46%		Time 17.87s
+01/21 06:56:34 PM | Epoch[1] (24320/50000):	Loss 0.1635	Accurary 94.45%		Time 18.78s
+01/21 06:56:34 PM | Epoch[1] (24320/50000):	Loss 0.1635	Accurary 94.45%		Time 18.78s
+01/21 06:56:34 PM | Epoch[1] (24320/50000):	Loss 0.1635	Accurary 94.45%		Time 18.78s
+01/21 06:56:34 PM | Epoch[1] (24320/50000):	Loss 0.1635	Accurary 94.45%		Time 18.78s
+01/21 06:56:34 PM | Epoch[1] (24320/50000):	Loss 0.1635	Accurary 94.45%		Time 18.78s
+01/21 06:56:53 PM | Epoch[1] (29184/50000):	Loss 0.1656	Accurary 94.40%		Time 18.68s
+01/21 06:56:53 PM | Epoch[1] (29184/50000):	Loss 0.1656	Accurary 94.40%		Time 18.68s
+01/21 06:56:53 PM | Epoch[1] (29184/50000):	Loss 0.1656	Accurary 94.40%		Time 18.68s
+01/21 06:56:53 PM | Epoch[1] (29184/50000):	Loss 0.1656	Accurary 94.40%		Time 18.68s
+01/21 06:56:53 PM | Epoch[1] (29184/50000):	Loss 0.1656	Accurary 94.40%		Time 18.68s
+01/21 06:57:12 PM | Epoch[1] (34048/50000):	Loss 0.1663	Accurary 94.35%		Time 19.20s
+01/21 06:57:12 PM | Epoch[1] (34048/50000):	Loss 0.1663	Accurary 94.35%		Time 19.20s
+01/21 06:57:12 PM | Epoch[1] (34048/50000):	Loss 0.1663	Accurary 94.35%		Time 19.20s
+01/21 06:57:12 PM | Epoch[1] (34048/50000):	Loss 0.1663	Accurary 94.35%		Time 19.20s
+01/21 06:57:12 PM | Epoch[1] (34048/50000):	Loss 0.1663	Accurary 94.35%		Time 19.20s
+01/21 06:57:31 PM | Epoch[1] (38912/50000):	Loss 0.1660	Accurary 94.37%		Time 18.71s
+01/21 06:57:31 PM | Epoch[1] (38912/50000):	Loss 0.1660	Accurary 94.37%		Time 18.71s
+01/21 06:57:31 PM | Epoch[1] (38912/50000):	Loss 0.1660	Accurary 94.37%		Time 18.71s
+01/21 06:57:31 PM | Epoch[1] (38912/50000):	Loss 0.1660	Accurary 94.37%		Time 18.71s
+01/21 06:57:31 PM | Epoch[1] (38912/50000):	Loss 0.1660	Accurary 94.37%		Time 18.71s
+01/21 06:57:49 PM | Epoch[1] (43776/50000):	Loss 0.1678	Accurary 94.29%		Time 18.62s
+01/21 06:57:49 PM | Epoch[1] (43776/50000):	Loss 0.1678	Accurary 94.29%		Time 18.62s
+01/21 06:57:49 PM | Epoch[1] (43776/50000):	Loss 0.1678	Accurary 94.29%		Time 18.62s
+01/21 06:57:49 PM | Epoch[1] (43776/50000):	Loss 0.1678	Accurary 94.29%		Time 18.62s
+01/21 06:57:49 PM | Epoch[1] (43776/50000):	Loss 0.1678	Accurary 94.29%		Time 18.62s
+01/21 06:58:07 PM | Epoch[1] (48640/50000):	Loss 0.1695	Accurary 94.23%		Time 17.82s
+01/21 06:58:07 PM | Epoch[1] (48640/50000):	Loss 0.1695	Accurary 94.23%		Time 17.82s
+01/21 06:58:07 PM | Epoch[1] (48640/50000):	Loss 0.1695	Accurary 94.23%		Time 17.82s
+01/21 06:58:07 PM | Epoch[1] (48640/50000):	Loss 0.1695	Accurary 94.23%		Time 17.82s
+01/21 06:58:07 PM | Epoch[1] (48640/50000):	Loss 0.1695	Accurary 94.23%		Time 17.82s
+01/21 06:58:17 PM | Test Loss 0.3918	Accurary 87.20%		Time 5.50s
+
+01/21 06:58:17 PM | Test Loss 0.3918	Accurary 87.20%		Time 5.50s
+
+01/21 06:58:17 PM | Test Loss 0.3918	Accurary 87.20%		Time 5.50s
+
+01/21 06:58:17 PM | Test Loss 0.3918	Accurary 87.20%		Time 5.50s
+
+01/21 06:58:17 PM | Test Loss 0.3918	Accurary 87.20%		Time 5.50s
+
+01/21 06:58:17 PM | ############# model2_2epoch:88.30999755859375 using 389.6251928806305s #################
+01/21 06:58:17 PM | ############# model2_2epoch:88.30999755859375 using 389.6251928806305s #################
+01/21 06:58:17 PM | ############# model2_2epoch:88.30999755859375 using 389.6251928806305s #################
+01/21 06:58:17 PM | ############# model2_2epoch:88.30999755859375 using 389.6251928806305s #################
+01/21 06:58:17 PM | ############# model2_2epoch:88.30999755859375 using 389.6251928806305s #################
+01/21 06:58:33 PM | Epoch[0] (4864/50000):	Loss 0.5288	Accurary 84.04%		Time 16.28s
+01/21 06:58:33 PM | Epoch[0] (4864/50000):	Loss 0.5288	Accurary 84.04%		Time 16.28s
+01/21 06:58:33 PM | Epoch[0] (4864/50000):	Loss 0.5288	Accurary 84.04%		Time 16.28s
+01/21 06:58:33 PM | Epoch[0] (4864/50000):	Loss 0.5288	Accurary 84.04%		Time 16.28s
+01/21 06:58:33 PM | Epoch[0] (4864/50000):	Loss 0.5288	Accurary 84.04%		Time 16.28s
+01/21 06:58:46 PM | Epoch[0] (9728/50000):	Loss 0.4208	Accurary 86.99%		Time 12.79s
+01/21 06:58:46 PM | Epoch[0] (9728/50000):	Loss 0.4208	Accurary 86.99%		Time 12.79s
+01/21 06:58:46 PM | Epoch[0] (9728/50000):	Loss 0.4208	Accurary 86.99%		Time 12.79s
+01/21 06:58:46 PM | Epoch[0] (9728/50000):	Loss 0.4208	Accurary 86.99%		Time 12.79s
+01/21 06:58:46 PM | Epoch[0] (9728/50000):	Loss 0.4208	Accurary 86.99%		Time 12.79s
+01/21 06:58:58 PM | Epoch[0] (14592/50000):	Loss 0.3617	Accurary 88.58%		Time 12.27s
+01/21 06:58:58 PM | Epoch[0] (14592/50000):	Loss 0.3617	Accurary 88.58%		Time 12.27s
+01/21 06:58:58 PM | Epoch[0] (14592/50000):	Loss 0.3617	Accurary 88.58%		Time 12.27s
+01/21 06:58:58 PM | Epoch[0] (14592/50000):	Loss 0.3617	Accurary 88.58%		Time 12.27s
+01/21 06:58:58 PM | Epoch[0] (14592/50000):	Loss 0.3617	Accurary 88.58%		Time 12.27s
+01/21 06:59:10 PM | Epoch[0] (19456/50000):	Loss 0.3229	Accurary 89.68%		Time 12.04s
+01/21 06:59:10 PM | Epoch[0] (19456/50000):	Loss 0.3229	Accurary 89.68%		Time 12.04s
+01/21 06:59:10 PM | Epoch[0] (19456/50000):	Loss 0.3229	Accurary 89.68%		Time 12.04s
+01/21 06:59:10 PM | Epoch[0] (19456/50000):	Loss 0.3229	Accurary 89.68%		Time 12.04s
+01/21 06:59:10 PM | Epoch[0] (19456/50000):	Loss 0.3229	Accurary 89.68%		Time 12.04s
+01/21 06:59:22 PM | Epoch[0] (24320/50000):	Loss 0.2984	Accurary 90.34%		Time 11.93s
+01/21 06:59:22 PM | Epoch[0] (24320/50000):	Loss 0.2984	Accurary 90.34%		Time 11.93s
+01/21 06:59:22 PM | Epoch[0] (24320/50000):	Loss 0.2984	Accurary 90.34%		Time 11.93s
+01/21 06:59:22 PM | Epoch[0] (24320/50000):	Loss 0.2984	Accurary 90.34%		Time 11.93s
+01/21 06:59:22 PM | Epoch[0] (24320/50000):	Loss 0.2984	Accurary 90.34%		Time 11.93s
+01/21 06:59:34 PM | Epoch[0] (29184/50000):	Loss 0.2836	Accurary 90.71%		Time 11.98s
+01/21 06:59:34 PM | Epoch[0] (29184/50000):	Loss 0.2836	Accurary 90.71%		Time 11.98s
+01/21 06:59:34 PM | Epoch[0] (29184/50000):	Loss 0.2836	Accurary 90.71%		Time 11.98s
+01/21 06:59:34 PM | Epoch[0] (29184/50000):	Loss 0.2836	Accurary 90.71%		Time 11.98s
+01/21 06:59:34 PM | Epoch[0] (29184/50000):	Loss 0.2836	Accurary 90.71%		Time 11.98s
+01/21 06:59:46 PM | Epoch[0] (34048/50000):	Loss 0.2715	Accurary 91.05%		Time 12.19s
+01/21 06:59:46 PM | Epoch[0] (34048/50000):	Loss 0.2715	Accurary 91.05%		Time 12.19s
+01/21 06:59:46 PM | Epoch[0] (34048/50000):	Loss 0.2715	Accurary 91.05%		Time 12.19s
+01/21 06:59:46 PM | Epoch[0] (34048/50000):	Loss 0.2715	Accurary 91.05%		Time 12.19s
+01/21 06:59:46 PM | Epoch[0] (34048/50000):	Loss 0.2715	Accurary 91.05%		Time 12.19s
+01/21 06:59:58 PM | Epoch[0] (38912/50000):	Loss 0.2603	Accurary 91.37%		Time 11.60s
+01/21 06:59:58 PM | Epoch[0] (38912/50000):	Loss 0.2603	Accurary 91.37%		Time 11.60s
+01/21 06:59:58 PM | Epoch[0] (38912/50000):	Loss 0.2603	Accurary 91.37%		Time 11.60s
+01/21 06:59:58 PM | Epoch[0] (38912/50000):	Loss 0.2603	Accurary 91.37%		Time 11.60s
+01/21 06:59:58 PM | Epoch[0] (38912/50000):	Loss 0.2603	Accurary 91.37%		Time 11.60s
+01/21 07:00:10 PM | Epoch[0] (43776/50000):	Loss 0.2525	Accurary 91.59%		Time 11.60s
+01/21 07:00:10 PM | Epoch[0] (43776/50000):	Loss 0.2525	Accurary 91.59%		Time 11.60s
+01/21 07:00:10 PM | Epoch[0] (43776/50000):	Loss 0.2525	Accurary 91.59%		Time 11.60s
+01/21 07:00:10 PM | Epoch[0] (43776/50000):	Loss 0.2525	Accurary 91.59%		Time 11.60s
+01/21 07:00:10 PM | Epoch[0] (43776/50000):	Loss 0.2525	Accurary 91.59%		Time 11.60s
+01/21 07:00:21 PM | Epoch[0] (48640/50000):	Loss 0.2461	Accurary 91.82%		Time 11.61s
+01/21 07:00:21 PM | Epoch[0] (48640/50000):	Loss 0.2461	Accurary 91.82%		Time 11.61s
+01/21 07:00:21 PM | Epoch[0] (48640/50000):	Loss 0.2461	Accurary 91.82%		Time 11.61s
+01/21 07:00:21 PM | Epoch[0] (48640/50000):	Loss 0.2461	Accurary 91.82%		Time 11.61s
+01/21 07:00:21 PM | Epoch[0] (48640/50000):	Loss 0.2461	Accurary 91.82%		Time 11.61s
+01/21 07:00:28 PM | Test Loss 0.3492	Accurary 88.82%		Time 4.35s
+
+01/21 07:00:28 PM | Test Loss 0.3492	Accurary 88.82%		Time 4.35s
+
+01/21 07:00:28 PM | Test Loss 0.3492	Accurary 88.82%		Time 4.35s
+
+01/21 07:00:28 PM | Test Loss 0.3492	Accurary 88.82%		Time 4.35s
+
+01/21 07:00:28 PM | Test Loss 0.3492	Accurary 88.82%		Time 4.35s
+
+01/21 07:00:45 PM | Epoch[1] (4864/50000):	Loss 0.1579	Accurary 94.69%		Time 16.18s
+01/21 07:00:45 PM | Epoch[1] (4864/50000):	Loss 0.1579	Accurary 94.69%		Time 16.18s
+01/21 07:00:45 PM | Epoch[1] (4864/50000):	Loss 0.1579	Accurary 94.69%		Time 16.18s
+01/21 07:00:45 PM | Epoch[1] (4864/50000):	Loss 0.1579	Accurary 94.69%		Time 16.18s
+01/21 07:00:45 PM | Epoch[1] (4864/50000):	Loss 0.1579	Accurary 94.69%		Time 16.18s
+01/21 07:00:56 PM | Epoch[1] (9728/50000):	Loss 0.1555	Accurary 94.73%		Time 11.61s
+01/21 07:00:56 PM | Epoch[1] (9728/50000):	Loss 0.1555	Accurary 94.73%		Time 11.61s
+01/21 07:00:56 PM | Epoch[1] (9728/50000):	Loss 0.1555	Accurary 94.73%		Time 11.61s
+01/21 07:00:56 PM | Epoch[1] (9728/50000):	Loss 0.1555	Accurary 94.73%		Time 11.61s
+01/21 07:00:56 PM | Epoch[1] (9728/50000):	Loss 0.1555	Accurary 94.73%		Time 11.61s
+01/21 07:01:08 PM | Epoch[1] (14592/50000):	Loss 0.1570	Accurary 94.77%		Time 11.60s
+01/21 07:01:08 PM | Epoch[1] (14592/50000):	Loss 0.1570	Accurary 94.77%		Time 11.60s
+01/21 07:01:08 PM | Epoch[1] (14592/50000):	Loss 0.1570	Accurary 94.77%		Time 11.60s
+01/21 07:01:08 PM | Epoch[1] (14592/50000):	Loss 0.1570	Accurary 94.77%		Time 11.60s
+01/21 07:01:08 PM | Epoch[1] (14592/50000):	Loss 0.1570	Accurary 94.77%		Time 11.60s
+01/21 07:01:19 PM | Epoch[1] (19456/50000):	Loss 0.1577	Accurary 94.78%		Time 11.60s
+01/21 07:01:19 PM | Epoch[1] (19456/50000):	Loss 0.1577	Accurary 94.78%		Time 11.60s
+01/21 07:01:19 PM | Epoch[1] (19456/50000):	Loss 0.1577	Accurary 94.78%		Time 11.60s
+01/21 07:01:19 PM | Epoch[1] (19456/50000):	Loss 0.1577	Accurary 94.78%		Time 11.60s
+01/21 07:01:19 PM | Epoch[1] (19456/50000):	Loss 0.1577	Accurary 94.78%		Time 11.60s
+01/21 07:01:31 PM | Epoch[1] (24320/50000):	Loss 0.1564	Accurary 94.81%		Time 11.60s
+01/21 07:01:31 PM | Epoch[1] (24320/50000):	Loss 0.1564	Accurary 94.81%		Time 11.60s
+01/21 07:01:31 PM | Epoch[1] (24320/50000):	Loss 0.1564	Accurary 94.81%		Time 11.60s
+01/21 07:01:31 PM | Epoch[1] (24320/50000):	Loss 0.1564	Accurary 94.81%		Time 11.60s
+01/21 07:01:31 PM | Epoch[1] (24320/50000):	Loss 0.1564	Accurary 94.81%		Time 11.60s
+01/21 07:01:43 PM | Epoch[1] (29184/50000):	Loss 0.1584	Accurary 94.72%		Time 11.61s
+01/21 07:01:43 PM | Epoch[1] (29184/50000):	Loss 0.1584	Accurary 94.72%		Time 11.61s
+01/21 07:01:43 PM | Epoch[1] (29184/50000):	Loss 0.1584	Accurary 94.72%		Time 11.61s
+01/21 07:01:43 PM | Epoch[1] (29184/50000):	Loss 0.1584	Accurary 94.72%		Time 11.61s
+01/21 07:01:43 PM | Epoch[1] (29184/50000):	Loss 0.1584	Accurary 94.72%		Time 11.61s
+01/21 07:01:54 PM | Epoch[1] (34048/50000):	Loss 0.1627	Accurary 94.61%		Time 11.53s
+01/21 07:01:54 PM | Epoch[1] (34048/50000):	Loss 0.1627	Accurary 94.61%		Time 11.53s
+01/21 07:01:54 PM | Epoch[1] (34048/50000):	Loss 0.1627	Accurary 94.61%		Time 11.53s
+01/21 07:01:54 PM | Epoch[1] (34048/50000):	Loss 0.1627	Accurary 94.61%		Time 11.53s
+01/21 07:01:54 PM | Epoch[1] (34048/50000):	Loss 0.1627	Accurary 94.61%		Time 11.53s
+01/21 07:02:06 PM | Epoch[1] (38912/50000):	Loss 0.1634	Accurary 94.58%		Time 11.57s
+01/21 07:02:06 PM | Epoch[1] (38912/50000):	Loss 0.1634	Accurary 94.58%		Time 11.57s
+01/21 07:02:06 PM | Epoch[1] (38912/50000):	Loss 0.1634	Accurary 94.58%		Time 11.57s
+01/21 07:02:06 PM | Epoch[1] (38912/50000):	Loss 0.1634	Accurary 94.58%		Time 11.57s
+01/21 07:02:06 PM | Epoch[1] (38912/50000):	Loss 0.1634	Accurary 94.58%		Time 11.57s
+01/21 07:02:17 PM | Epoch[1] (43776/50000):	Loss 0.1651	Accurary 94.52%		Time 11.63s
+01/21 07:02:17 PM | Epoch[1] (43776/50000):	Loss 0.1651	Accurary 94.52%		Time 11.63s
+01/21 07:02:17 PM | Epoch[1] (43776/50000):	Loss 0.1651	Accurary 94.52%		Time 11.63s
+01/21 07:02:17 PM | Epoch[1] (43776/50000):	Loss 0.1651	Accurary 94.52%		Time 11.63s
+01/21 07:02:17 PM | Epoch[1] (43776/50000):	Loss 0.1651	Accurary 94.52%		Time 11.63s
+01/21 07:02:29 PM | Epoch[1] (48640/50000):	Loss 0.1671	Accurary 94.46%		Time 11.59s
+01/21 07:02:29 PM | Epoch[1] (48640/50000):	Loss 0.1671	Accurary 94.46%		Time 11.59s
+01/21 07:02:29 PM | Epoch[1] (48640/50000):	Loss 0.1671	Accurary 94.46%		Time 11.59s
+01/21 07:02:29 PM | Epoch[1] (48640/50000):	Loss 0.1671	Accurary 94.46%		Time 11.59s
+01/21 07:02:29 PM | Epoch[1] (48640/50000):	Loss 0.1671	Accurary 94.46%		Time 11.59s
+01/21 07:02:36 PM | Test Loss 0.5099	Accurary 84.06%		Time 4.11s
+
+01/21 07:02:36 PM | Test Loss 0.5099	Accurary 84.06%		Time 4.11s
+
+01/21 07:02:36 PM | Test Loss 0.5099	Accurary 84.06%		Time 4.11s
+
+01/21 07:02:36 PM | Test Loss 0.5099	Accurary 84.06%		Time 4.11s
+
+01/21 07:02:36 PM | Test Loss 0.5099	Accurary 84.06%		Time 4.11s
+
+01/21 07:02:36 PM | ############# model3_2epoch:88.81999969482422 using 258.86367440223694s #################
+01/21 07:02:36 PM | ############# model3_2epoch:88.81999969482422 using 258.86367440223694s #################
+01/21 07:02:36 PM | ############# model3_2epoch:88.81999969482422 using 258.86367440223694s #################
+01/21 07:02:36 PM | ############# model3_2epoch:88.81999969482422 using 258.86367440223694s #################
+01/21 07:02:36 PM | ############# model3_2epoch:88.81999969482422 using 258.86367440223694s #################
+01/21 07:02:52 PM | Epoch[0] (4864/50000):	Loss 0.3894	Accurary 88.26%		Time 16.40s
+01/21 07:02:52 PM | Epoch[0] (4864/50000):	Loss 0.3894	Accurary 88.26%		Time 16.40s
+01/21 07:02:52 PM | Epoch[0] (4864/50000):	Loss 0.3894	Accurary 88.26%		Time 16.40s
+01/21 07:02:52 PM | Epoch[0] (4864/50000):	Loss 0.3894	Accurary 88.26%		Time 16.40s
+01/21 07:02:52 PM | Epoch[0] (4864/50000):	Loss 0.3894	Accurary 88.26%		Time 16.40s
+01/21 07:03:04 PM | Epoch[0] (9728/50000):	Loss 0.2992	Accurary 90.84%		Time 11.86s
+01/21 07:03:04 PM | Epoch[0] (9728/50000):	Loss 0.2992	Accurary 90.84%		Time 11.86s
+01/21 07:03:04 PM | Epoch[0] (9728/50000):	Loss 0.2992	Accurary 90.84%		Time 11.86s
+01/21 07:03:04 PM | Epoch[0] (9728/50000):	Loss 0.2992	Accurary 90.84%		Time 11.86s
+01/21 07:03:04 PM | Epoch[0] (9728/50000):	Loss 0.2992	Accurary 90.84%		Time 11.86s
+01/21 07:03:16 PM | Epoch[0] (14592/50000):	Loss 0.2607	Accurary 91.90%		Time 11.90s
+01/21 07:03:16 PM | Epoch[0] (14592/50000):	Loss 0.2607	Accurary 91.90%		Time 11.90s
+01/21 07:03:16 PM | Epoch[0] (14592/50000):	Loss 0.2607	Accurary 91.90%		Time 11.90s
+01/21 07:03:16 PM | Epoch[0] (14592/50000):	Loss 0.2607	Accurary 91.90%		Time 11.90s
+01/21 07:03:16 PM | Epoch[0] (14592/50000):	Loss 0.2607	Accurary 91.90%		Time 11.90s
+01/21 07:03:28 PM | Epoch[0] (19456/50000):	Loss 0.2321	Accurary 92.81%		Time 11.93s
+01/21 07:03:28 PM | Epoch[0] (19456/50000):	Loss 0.2321	Accurary 92.81%		Time 11.93s
+01/21 07:03:28 PM | Epoch[0] (19456/50000):	Loss 0.2321	Accurary 92.81%		Time 11.93s
+01/21 07:03:28 PM | Epoch[0] (19456/50000):	Loss 0.2321	Accurary 92.81%		Time 11.93s
+01/21 07:03:28 PM | Epoch[0] (19456/50000):	Loss 0.2321	Accurary 92.81%		Time 11.93s
+01/21 07:03:40 PM | Epoch[0] (24320/50000):	Loss 0.2145	Accurary 93.28%		Time 11.90s
+01/21 07:03:40 PM | Epoch[0] (24320/50000):	Loss 0.2145	Accurary 93.28%		Time 11.90s
+01/21 07:03:40 PM | Epoch[0] (24320/50000):	Loss 0.2145	Accurary 93.28%		Time 11.90s
+01/21 07:03:40 PM | Epoch[0] (24320/50000):	Loss 0.2145	Accurary 93.28%		Time 11.90s
+01/21 07:03:40 PM | Epoch[0] (24320/50000):	Loss 0.2145	Accurary 93.28%		Time 11.90s
+01/21 07:03:52 PM | Epoch[0] (29184/50000):	Loss 0.2065	Accurary 93.46%		Time 11.97s
+01/21 07:03:52 PM | Epoch[0] (29184/50000):	Loss 0.2065	Accurary 93.46%		Time 11.97s
+01/21 07:03:52 PM | Epoch[0] (29184/50000):	Loss 0.2065	Accurary 93.46%		Time 11.97s
+01/21 07:03:52 PM | Epoch[0] (29184/50000):	Loss 0.2065	Accurary 93.46%		Time 11.97s
+01/21 07:03:52 PM | Epoch[0] (29184/50000):	Loss 0.2065	Accurary 93.46%		Time 11.97s
+01/21 07:04:04 PM | Epoch[0] (34048/50000):	Loss 0.2012	Accurary 93.59%		Time 11.97s
+01/21 07:04:04 PM | Epoch[0] (34048/50000):	Loss 0.2012	Accurary 93.59%		Time 11.97s
+01/21 07:04:04 PM | Epoch[0] (34048/50000):	Loss 0.2012	Accurary 93.59%		Time 11.97s
+01/21 07:04:04 PM | Epoch[0] (34048/50000):	Loss 0.2012	Accurary 93.59%		Time 11.97s
+01/21 07:04:04 PM | Epoch[0] (34048/50000):	Loss 0.2012	Accurary 93.59%		Time 11.97s
+01/21 07:04:16 PM | Epoch[0] (38912/50000):	Loss 0.1962	Accurary 93.73%		Time 11.93s
+01/21 07:04:16 PM | Epoch[0] (38912/50000):	Loss 0.1962	Accurary 93.73%		Time 11.93s
+01/21 07:04:16 PM | Epoch[0] (38912/50000):	Loss 0.1962	Accurary 93.73%		Time 11.93s
+01/21 07:04:16 PM | Epoch[0] (38912/50000):	Loss 0.1962	Accurary 93.73%		Time 11.93s
+01/21 07:04:16 PM | Epoch[0] (38912/50000):	Loss 0.1962	Accurary 93.73%		Time 11.93s
+01/21 07:04:28 PM | Epoch[0] (43776/50000):	Loss 0.1907	Accurary 93.89%		Time 11.92s
+01/21 07:04:28 PM | Epoch[0] (43776/50000):	Loss 0.1907	Accurary 93.89%		Time 11.92s
+01/21 07:04:28 PM | Epoch[0] (43776/50000):	Loss 0.1907	Accurary 93.89%		Time 11.92s
+01/21 07:04:28 PM | Epoch[0] (43776/50000):	Loss 0.1907	Accurary 93.89%		Time 11.92s
+01/21 07:04:28 PM | Epoch[0] (43776/50000):	Loss 0.1907	Accurary 93.89%		Time 11.92s
+01/21 07:04:40 PM | Epoch[0] (48640/50000):	Loss 0.1871	Accurary 93.98%		Time 11.94s
+01/21 07:04:40 PM | Epoch[0] (48640/50000):	Loss 0.1871	Accurary 93.98%		Time 11.94s
+01/21 07:04:40 PM | Epoch[0] (48640/50000):	Loss 0.1871	Accurary 93.98%		Time 11.94s
+01/21 07:04:40 PM | Epoch[0] (48640/50000):	Loss 0.1871	Accurary 93.98%		Time 11.94s
+01/21 07:04:40 PM | Epoch[0] (48640/50000):	Loss 0.1871	Accurary 93.98%		Time 11.94s
+01/21 07:04:49 PM | Test Loss 0.3588	Accurary 88.84%		Time 5.80s
+
+01/21 07:04:49 PM | Test Loss 0.3588	Accurary 88.84%		Time 5.80s
+
+01/21 07:04:49 PM | Test Loss 0.3588	Accurary 88.84%		Time 5.80s
+
+01/21 07:04:49 PM | Test Loss 0.3588	Accurary 88.84%		Time 5.80s
+
+01/21 07:04:49 PM | Test Loss 0.3588	Accurary 88.84%		Time 5.80s
+
+01/21 07:05:05 PM | Epoch[1] (4864/50000):	Loss 0.1495	Accurary 95.14%		Time 16.50s
+01/21 07:05:05 PM | Epoch[1] (4864/50000):	Loss 0.1495	Accurary 95.14%		Time 16.50s
+01/21 07:05:05 PM | Epoch[1] (4864/50000):	Loss 0.1495	Accurary 95.14%		Time 16.50s
+01/21 07:05:05 PM | Epoch[1] (4864/50000):	Loss 0.1495	Accurary 95.14%		Time 16.50s
+01/21 07:05:05 PM | Epoch[1] (4864/50000):	Loss 0.1495	Accurary 95.14%		Time 16.50s
+01/21 07:05:17 PM | Epoch[1] (9728/50000):	Loss 0.1487	Accurary 95.22%		Time 11.93s
+01/21 07:05:17 PM | Epoch[1] (9728/50000):	Loss 0.1487	Accurary 95.22%		Time 11.93s
+01/21 07:05:17 PM | Epoch[1] (9728/50000):	Loss 0.1487	Accurary 95.22%		Time 11.93s
+01/21 07:05:17 PM | Epoch[1] (9728/50000):	Loss 0.1487	Accurary 95.22%		Time 11.93s
+01/21 07:05:17 PM | Epoch[1] (9728/50000):	Loss 0.1487	Accurary 95.22%		Time 11.93s
+01/21 07:05:29 PM | Epoch[1] (14592/50000):	Loss 0.1472	Accurary 95.17%		Time 11.87s
+01/21 07:05:29 PM | Epoch[1] (14592/50000):	Loss 0.1472	Accurary 95.17%		Time 11.87s
+01/21 07:05:29 PM | Epoch[1] (14592/50000):	Loss 0.1472	Accurary 95.17%		Time 11.87s
+01/21 07:05:29 PM | Epoch[1] (14592/50000):	Loss 0.1472	Accurary 95.17%		Time 11.87s
+01/21 07:05:29 PM | Epoch[1] (14592/50000):	Loss 0.1472	Accurary 95.17%		Time 11.87s
+01/21 07:05:41 PM | Epoch[1] (19456/50000):	Loss 0.1472	Accurary 95.17%		Time 11.89s
+01/21 07:05:41 PM | Epoch[1] (19456/50000):	Loss 0.1472	Accurary 95.17%		Time 11.89s
+01/21 07:05:41 PM | Epoch[1] (19456/50000):	Loss 0.1472	Accurary 95.17%		Time 11.89s
+01/21 07:05:41 PM | Epoch[1] (19456/50000):	Loss 0.1472	Accurary 95.17%		Time 11.89s
+01/21 07:05:41 PM | Epoch[1] (19456/50000):	Loss 0.1472	Accurary 95.17%		Time 11.89s
+01/21 07:05:53 PM | Epoch[1] (24320/50000):	Loss 0.1471	Accurary 95.19%		Time 11.91s
+01/21 07:05:53 PM | Epoch[1] (24320/50000):	Loss 0.1471	Accurary 95.19%		Time 11.91s
+01/21 07:05:53 PM | Epoch[1] (24320/50000):	Loss 0.1471	Accurary 95.19%		Time 11.91s
+01/21 07:05:53 PM | Epoch[1] (24320/50000):	Loss 0.1471	Accurary 95.19%		Time 11.91s
+01/21 07:05:53 PM | Epoch[1] (24320/50000):	Loss 0.1471	Accurary 95.19%		Time 11.91s
+01/21 07:06:04 PM | Epoch[1] (29184/50000):	Loss 0.1488	Accurary 95.15%		Time 11.86s
+01/21 07:06:04 PM | Epoch[1] (29184/50000):	Loss 0.1488	Accurary 95.15%		Time 11.86s
+01/21 07:06:04 PM | Epoch[1] (29184/50000):	Loss 0.1488	Accurary 95.15%		Time 11.86s
+01/21 07:06:04 PM | Epoch[1] (29184/50000):	Loss 0.1488	Accurary 95.15%		Time 11.86s
+01/21 07:06:04 PM | Epoch[1] (29184/50000):	Loss 0.1488	Accurary 95.15%		Time 11.86s
+01/21 07:06:16 PM | Epoch[1] (34048/50000):	Loss 0.1508	Accurary 95.08%		Time 11.87s
+01/21 07:06:16 PM | Epoch[1] (34048/50000):	Loss 0.1508	Accurary 95.08%		Time 11.87s
+01/21 07:06:16 PM | Epoch[1] (34048/50000):	Loss 0.1508	Accurary 95.08%		Time 11.87s
+01/21 07:06:16 PM | Epoch[1] (34048/50000):	Loss 0.1508	Accurary 95.08%		Time 11.87s
+01/21 07:06:16 PM | Epoch[1] (34048/50000):	Loss 0.1508	Accurary 95.08%		Time 11.87s
+01/21 07:06:28 PM | Epoch[1] (38912/50000):	Loss 0.1543	Accurary 94.94%		Time 11.87s
+01/21 07:06:28 PM | Epoch[1] (38912/50000):	Loss 0.1543	Accurary 94.94%		Time 11.87s
+01/21 07:06:28 PM | Epoch[1] (38912/50000):	Loss 0.1543	Accurary 94.94%		Time 11.87s
+01/21 07:06:28 PM | Epoch[1] (38912/50000):	Loss 0.1543	Accurary 94.94%		Time 11.87s
+01/21 07:06:28 PM | Epoch[1] (38912/50000):	Loss 0.1543	Accurary 94.94%		Time 11.87s
+01/21 07:06:40 PM | Epoch[1] (43776/50000):	Loss 0.1543	Accurary 94.97%		Time 11.88s
+01/21 07:06:40 PM | Epoch[1] (43776/50000):	Loss 0.1543	Accurary 94.97%		Time 11.88s
+01/21 07:06:40 PM | Epoch[1] (43776/50000):	Loss 0.1543	Accurary 94.97%		Time 11.88s
+01/21 07:06:40 PM | Epoch[1] (43776/50000):	Loss 0.1543	Accurary 94.97%		Time 11.88s
+01/21 07:06:40 PM | Epoch[1] (43776/50000):	Loss 0.1543	Accurary 94.97%		Time 11.88s
+01/21 07:06:52 PM | Epoch[1] (48640/50000):	Loss 0.1548	Accurary 94.99%		Time 11.90s
+01/21 07:06:52 PM | Epoch[1] (48640/50000):	Loss 0.1548	Accurary 94.99%		Time 11.90s
+01/21 07:06:52 PM | Epoch[1] (48640/50000):	Loss 0.1548	Accurary 94.99%		Time 11.90s
+01/21 07:06:52 PM | Epoch[1] (48640/50000):	Loss 0.1548	Accurary 94.99%		Time 11.90s
+01/21 07:06:52 PM | Epoch[1] (48640/50000):	Loss 0.1548	Accurary 94.99%		Time 11.90s
+01/21 07:07:01 PM | Test Loss 0.4153	Accurary 86.59%		Time 5.90s
+
+01/21 07:07:01 PM | Test Loss 0.4153	Accurary 86.59%		Time 5.90s
+
+01/21 07:07:01 PM | Test Loss 0.4153	Accurary 86.59%		Time 5.90s
+
+01/21 07:07:01 PM | Test Loss 0.4153	Accurary 86.59%		Time 5.90s
+
+01/21 07:07:01 PM | Test Loss 0.4153	Accurary 86.59%		Time 5.90s
+
+01/21 07:07:01 PM | ############# model4_2epoch:88.83999633789062 using 264.77026557922363s #################
+01/21 07:07:01 PM | ############# model4_2epoch:88.83999633789062 using 264.77026557922363s #################
+01/21 07:07:01 PM | ############# model4_2epoch:88.83999633789062 using 264.77026557922363s #################
+01/21 07:07:01 PM | ############# model4_2epoch:88.83999633789062 using 264.77026557922363s #################
+01/21 07:07:01 PM | ############# model4_2epoch:88.83999633789062 using 264.77026557922363s #################
+01/21 07:07:33 PM | Epoch[0] (4864/50000):	Loss 0.5501	Accurary 84.00%		Time 32.00s
+01/21 07:07:33 PM | Epoch[0] (4864/50000):	Loss 0.5501	Accurary 84.00%		Time 32.00s
+01/21 07:07:33 PM | Epoch[0] (4864/50000):	Loss 0.5501	Accurary 84.00%		Time 32.00s
+01/21 07:07:33 PM | Epoch[0] (4864/50000):	Loss 0.5501	Accurary 84.00%		Time 32.00s
+01/21 07:07:33 PM | Epoch[0] (4864/50000):	Loss 0.5501	Accurary 84.00%		Time 32.00s
+01/21 07:07:57 PM | Epoch[0] (9728/50000):	Loss 0.4038	Accurary 87.80%		Time 23.84s
+01/21 07:07:57 PM | Epoch[0] (9728/50000):	Loss 0.4038	Accurary 87.80%		Time 23.84s
+01/21 07:07:57 PM | Epoch[0] (9728/50000):	Loss 0.4038	Accurary 87.80%		Time 23.84s
+01/21 07:07:57 PM | Epoch[0] (9728/50000):	Loss 0.4038	Accurary 87.80%		Time 23.84s
+01/21 07:07:57 PM | Epoch[0] (9728/50000):	Loss 0.4038	Accurary 87.80%		Time 23.84s
+01/21 07:08:08 PM | Epoch[0] (14592/50000):	Loss 0.3323	Accurary 89.86%		Time 11.41s
+01/21 07:08:08 PM | Epoch[0] (14592/50000):	Loss 0.3323	Accurary 89.86%		Time 11.41s
+01/21 07:08:08 PM | Epoch[0] (14592/50000):	Loss 0.3323	Accurary 89.86%		Time 11.41s
+01/21 07:08:08 PM | Epoch[0] (14592/50000):	Loss 0.3323	Accurary 89.86%		Time 11.41s
+01/21 07:08:08 PM | Epoch[0] (14592/50000):	Loss 0.3323	Accurary 89.86%		Time 11.41s
+01/21 07:08:20 PM | Epoch[0] (19456/50000):	Loss 0.2988	Accurary 90.77%		Time 11.35s
+01/21 07:08:20 PM | Epoch[0] (19456/50000):	Loss 0.2988	Accurary 90.77%		Time 11.35s
+01/21 07:08:20 PM | Epoch[0] (19456/50000):	Loss 0.2988	Accurary 90.77%		Time 11.35s
+01/21 07:08:20 PM | Epoch[0] (19456/50000):	Loss 0.2988	Accurary 90.77%		Time 11.35s
+01/21 07:08:20 PM | Epoch[0] (19456/50000):	Loss 0.2988	Accurary 90.77%		Time 11.35s
+01/21 07:08:31 PM | Epoch[0] (24320/50000):	Loss 0.2770	Accurary 91.33%		Time 11.00s
+01/21 07:08:31 PM | Epoch[0] (24320/50000):	Loss 0.2770	Accurary 91.33%		Time 11.00s
+01/21 07:08:31 PM | Epoch[0] (24320/50000):	Loss 0.2770	Accurary 91.33%		Time 11.00s
+01/21 07:08:31 PM | Epoch[0] (24320/50000):	Loss 0.2770	Accurary 91.33%		Time 11.00s
+01/21 07:08:31 PM | Epoch[0] (24320/50000):	Loss 0.2770	Accurary 91.33%		Time 11.00s
+01/21 07:08:42 PM | Epoch[0] (29184/50000):	Loss 0.2668	Accurary 91.58%		Time 10.92s
+01/21 07:08:42 PM | Epoch[0] (29184/50000):	Loss 0.2668	Accurary 91.58%		Time 10.92s
+01/21 07:08:42 PM | Epoch[0] (29184/50000):	Loss 0.2668	Accurary 91.58%		Time 10.92s
+01/21 07:08:42 PM | Epoch[0] (29184/50000):	Loss 0.2668	Accurary 91.58%		Time 10.92s
+01/21 07:08:42 PM | Epoch[0] (29184/50000):	Loss 0.2668	Accurary 91.58%		Time 10.92s
+01/21 07:08:53 PM | Epoch[0] (34048/50000):	Loss 0.2535	Accurary 92.00%		Time 11.01s
+01/21 07:08:53 PM | Epoch[0] (34048/50000):	Loss 0.2535	Accurary 92.00%		Time 11.01s
+01/21 07:08:53 PM | Epoch[0] (34048/50000):	Loss 0.2535	Accurary 92.00%		Time 11.01s
+01/21 07:08:53 PM | Epoch[0] (34048/50000):	Loss 0.2535	Accurary 92.00%		Time 11.01s
+01/21 07:08:53 PM | Epoch[0] (34048/50000):	Loss 0.2535	Accurary 92.00%		Time 11.01s
+01/21 07:09:04 PM | Epoch[0] (38912/50000):	Loss 0.2459	Accurary 92.24%		Time 10.93s
+01/21 07:09:04 PM | Epoch[0] (38912/50000):	Loss 0.2459	Accurary 92.24%		Time 10.93s
+01/21 07:09:04 PM | Epoch[0] (38912/50000):	Loss 0.2459	Accurary 92.24%		Time 10.93s
+01/21 07:09:04 PM | Epoch[0] (38912/50000):	Loss 0.2459	Accurary 92.24%		Time 10.93s
+01/21 07:09:04 PM | Epoch[0] (38912/50000):	Loss 0.2459	Accurary 92.24%		Time 10.93s
+01/21 07:09:14 PM | Epoch[0] (43776/50000):	Loss 0.2405	Accurary 92.39%		Time 10.77s
+01/21 07:09:14 PM | Epoch[0] (43776/50000):	Loss 0.2405	Accurary 92.39%		Time 10.77s
+01/21 07:09:14 PM | Epoch[0] (43776/50000):	Loss 0.2405	Accurary 92.39%		Time 10.77s
+01/21 07:09:14 PM | Epoch[0] (43776/50000):	Loss 0.2405	Accurary 92.39%		Time 10.77s
+01/21 07:09:14 PM | Epoch[0] (43776/50000):	Loss 0.2405	Accurary 92.39%		Time 10.77s
+01/21 07:09:25 PM | Epoch[0] (48640/50000):	Loss 0.2374	Accurary 92.42%		Time 10.79s
+01/21 07:09:25 PM | Epoch[0] (48640/50000):	Loss 0.2374	Accurary 92.42%		Time 10.79s
+01/21 07:09:25 PM | Epoch[0] (48640/50000):	Loss 0.2374	Accurary 92.42%		Time 10.79s
+01/21 07:09:25 PM | Epoch[0] (48640/50000):	Loss 0.2374	Accurary 92.42%		Time 10.79s
+01/21 07:09:25 PM | Epoch[0] (48640/50000):	Loss 0.2374	Accurary 92.42%		Time 10.79s
+01/21 07:09:34 PM | Test Loss 0.3981	Accurary 87.54%		Time 6.77s
+
+01/21 07:09:34 PM | Test Loss 0.3981	Accurary 87.54%		Time 6.77s
+
+01/21 07:09:34 PM | Test Loss 0.3981	Accurary 87.54%		Time 6.77s
+
+01/21 07:09:34 PM | Test Loss 0.3981	Accurary 87.54%		Time 6.77s
+
+01/21 07:09:34 PM | Test Loss 0.3981	Accurary 87.54%		Time 6.77s
+
+01/21 07:09:50 PM | Epoch[1] (4864/50000):	Loss 0.1652	Accurary 94.45%		Time 15.20s
+01/21 07:09:50 PM | Epoch[1] (4864/50000):	Loss 0.1652	Accurary 94.45%		Time 15.20s
+01/21 07:09:50 PM | Epoch[1] (4864/50000):	Loss 0.1652	Accurary 94.45%		Time 15.20s
+01/21 07:09:50 PM | Epoch[1] (4864/50000):	Loss 0.1652	Accurary 94.45%		Time 15.20s
+01/21 07:09:50 PM | Epoch[1] (4864/50000):	Loss 0.1652	Accurary 94.45%		Time 15.20s
+01/21 07:10:00 PM | Epoch[1] (9728/50000):	Loss 0.1684	Accurary 94.34%		Time 10.75s
+01/21 07:10:00 PM | Epoch[1] (9728/50000):	Loss 0.1684	Accurary 94.34%		Time 10.75s
+01/21 07:10:00 PM | Epoch[1] (9728/50000):	Loss 0.1684	Accurary 94.34%		Time 10.75s
+01/21 07:10:00 PM | Epoch[1] (9728/50000):	Loss 0.1684	Accurary 94.34%		Time 10.75s
+01/21 07:10:00 PM | Epoch[1] (9728/50000):	Loss 0.1684	Accurary 94.34%		Time 10.75s
+01/21 07:10:11 PM | Epoch[1] (14592/50000):	Loss 0.1693	Accurary 94.17%		Time 10.78s
+01/21 07:10:11 PM | Epoch[1] (14592/50000):	Loss 0.1693	Accurary 94.17%		Time 10.78s
+01/21 07:10:11 PM | Epoch[1] (14592/50000):	Loss 0.1693	Accurary 94.17%		Time 10.78s
+01/21 07:10:11 PM | Epoch[1] (14592/50000):	Loss 0.1693	Accurary 94.17%		Time 10.78s
+01/21 07:10:11 PM | Epoch[1] (14592/50000):	Loss 0.1693	Accurary 94.17%		Time 10.78s
+01/21 07:10:22 PM | Epoch[1] (19456/50000):	Loss 0.1713	Accurary 94.15%		Time 10.77s
+01/21 07:10:22 PM | Epoch[1] (19456/50000):	Loss 0.1713	Accurary 94.15%		Time 10.77s
+01/21 07:10:22 PM | Epoch[1] (19456/50000):	Loss 0.1713	Accurary 94.15%		Time 10.77s
+01/21 07:10:22 PM | Epoch[1] (19456/50000):	Loss 0.1713	Accurary 94.15%		Time 10.77s
+01/21 07:10:22 PM | Epoch[1] (19456/50000):	Loss 0.1713	Accurary 94.15%		Time 10.77s
+01/21 07:10:33 PM | Epoch[1] (24320/50000):	Loss 0.1735	Accurary 94.09%		Time 10.76s
+01/21 07:10:33 PM | Epoch[1] (24320/50000):	Loss 0.1735	Accurary 94.09%		Time 10.76s
+01/21 07:10:33 PM | Epoch[1] (24320/50000):	Loss 0.1735	Accurary 94.09%		Time 10.76s
+01/21 07:10:33 PM | Epoch[1] (24320/50000):	Loss 0.1735	Accurary 94.09%		Time 10.76s
+01/21 07:10:33 PM | Epoch[1] (24320/50000):	Loss 0.1735	Accurary 94.09%		Time 10.76s
+01/21 07:10:43 PM | Epoch[1] (29184/50000):	Loss 0.1745	Accurary 94.10%		Time 10.78s
+01/21 07:10:43 PM | Epoch[1] (29184/50000):	Loss 0.1745	Accurary 94.10%		Time 10.78s
+01/21 07:10:43 PM | Epoch[1] (29184/50000):	Loss 0.1745	Accurary 94.10%		Time 10.78s
+01/21 07:10:43 PM | Epoch[1] (29184/50000):	Loss 0.1745	Accurary 94.10%		Time 10.78s
+01/21 07:10:43 PM | Epoch[1] (29184/50000):	Loss 0.1745	Accurary 94.10%		Time 10.78s
+01/21 07:10:54 PM | Epoch[1] (34048/50000):	Loss 0.1761	Accurary 94.04%		Time 10.74s
+01/21 07:10:54 PM | Epoch[1] (34048/50000):	Loss 0.1761	Accurary 94.04%		Time 10.74s
+01/21 07:10:54 PM | Epoch[1] (34048/50000):	Loss 0.1761	Accurary 94.04%		Time 10.74s
+01/21 07:10:54 PM | Epoch[1] (34048/50000):	Loss 0.1761	Accurary 94.04%		Time 10.74s
+01/21 07:10:54 PM | Epoch[1] (34048/50000):	Loss 0.1761	Accurary 94.04%		Time 10.74s
+01/21 07:11:05 PM | Epoch[1] (38912/50000):	Loss 0.1782	Accurary 94.01%		Time 10.76s
+01/21 07:11:05 PM | Epoch[1] (38912/50000):	Loss 0.1782	Accurary 94.01%		Time 10.76s
+01/21 07:11:05 PM | Epoch[1] (38912/50000):	Loss 0.1782	Accurary 94.01%		Time 10.76s
+01/21 07:11:05 PM | Epoch[1] (38912/50000):	Loss 0.1782	Accurary 94.01%		Time 10.76s
+01/21 07:11:05 PM | Epoch[1] (38912/50000):	Loss 0.1782	Accurary 94.01%		Time 10.76s
+01/21 07:11:16 PM | Epoch[1] (43776/50000):	Loss 0.1779	Accurary 94.01%		Time 10.77s
+01/21 07:11:16 PM | Epoch[1] (43776/50000):	Loss 0.1779	Accurary 94.01%		Time 10.77s
+01/21 07:11:16 PM | Epoch[1] (43776/50000):	Loss 0.1779	Accurary 94.01%		Time 10.77s
+01/21 07:11:16 PM | Epoch[1] (43776/50000):	Loss 0.1779	Accurary 94.01%		Time 10.77s
+01/21 07:11:16 PM | Epoch[1] (43776/50000):	Loss 0.1779	Accurary 94.01%		Time 10.77s
+01/21 07:11:27 PM | Epoch[1] (48640/50000):	Loss 0.1777	Accurary 94.01%		Time 10.77s
+01/21 07:11:27 PM | Epoch[1] (48640/50000):	Loss 0.1777	Accurary 94.01%		Time 10.77s
+01/21 07:11:27 PM | Epoch[1] (48640/50000):	Loss 0.1777	Accurary 94.01%		Time 10.77s
+01/21 07:11:27 PM | Epoch[1] (48640/50000):	Loss 0.1777	Accurary 94.01%		Time 10.77s
+01/21 07:11:27 PM | Epoch[1] (48640/50000):	Loss 0.1777	Accurary 94.01%		Time 10.77s
+01/21 07:11:36 PM | Test Loss 0.4057	Accurary 87.58%		Time 6.89s
+
+01/21 07:11:36 PM | Test Loss 0.4057	Accurary 87.58%		Time 6.89s
+
+01/21 07:11:36 PM | Test Loss 0.4057	Accurary 87.58%		Time 6.89s
+
+01/21 07:11:36 PM | Test Loss 0.4057	Accurary 87.58%		Time 6.89s
+
+01/21 07:11:36 PM | Test Loss 0.4057	Accurary 87.58%		Time 6.89s
+
+01/21 07:11:36 PM | ############# model5_2epoch:87.57999420166016 using 274.877277135849s #################
+01/21 07:11:36 PM | ############# model5_2epoch:87.57999420166016 using 274.877277135849s #################
+01/21 07:11:36 PM | ############# model5_2epoch:87.57999420166016 using 274.877277135849s #################
+01/21 07:11:36 PM | ############# model5_2epoch:87.57999420166016 using 274.877277135849s #################
+01/21 07:11:36 PM | ############# model5_2epoch:87.57999420166016 using 274.877277135849s #################
+01/21 07:11:48 PM | Epoch[0] (4864/50000):	Loss 0.8561	Accurary 78.26%		Time 12.23s
+01/21 07:11:48 PM | Epoch[0] (4864/50000):	Loss 0.8561	Accurary 78.26%		Time 12.23s
+01/21 07:11:48 PM | Epoch[0] (4864/50000):	Loss 0.8561	Accurary 78.26%		Time 12.23s
+01/21 07:11:48 PM | Epoch[0] (4864/50000):	Loss 0.8561	Accurary 78.26%		Time 12.23s
+01/21 07:11:48 PM | Epoch[0] (4864/50000):	Loss 0.8561	Accurary 78.26%		Time 12.23s
+01/21 07:11:56 PM | Epoch[0] (9728/50000):	Loss 0.5879	Accurary 85.13%		Time 7.98s
+01/21 07:11:56 PM | Epoch[0] (9728/50000):	Loss 0.5879	Accurary 85.13%		Time 7.98s
+01/21 07:11:56 PM | Epoch[0] (9728/50000):	Loss 0.5879	Accurary 85.13%		Time 7.98s
+01/21 07:11:56 PM | Epoch[0] (9728/50000):	Loss 0.5879	Accurary 85.13%		Time 7.98s
+01/21 07:11:56 PM | Epoch[0] (9728/50000):	Loss 0.5879	Accurary 85.13%		Time 7.98s
+01/21 07:12:04 PM | Epoch[0] (14592/50000):	Loss 0.4667	Accurary 87.98%		Time 7.98s
+01/21 07:12:04 PM | Epoch[0] (14592/50000):	Loss 0.4667	Accurary 87.98%		Time 7.98s
+01/21 07:12:04 PM | Epoch[0] (14592/50000):	Loss 0.4667	Accurary 87.98%		Time 7.98s
+01/21 07:12:04 PM | Epoch[0] (14592/50000):	Loss 0.4667	Accurary 87.98%		Time 7.98s
+01/21 07:12:04 PM | Epoch[0] (14592/50000):	Loss 0.4667	Accurary 87.98%		Time 7.98s
+01/21 07:12:12 PM | Epoch[0] (19456/50000):	Loss 0.4024	Accurary 89.42%		Time 8.06s
+01/21 07:12:12 PM | Epoch[0] (19456/50000):	Loss 0.4024	Accurary 89.42%		Time 8.06s
+01/21 07:12:12 PM | Epoch[0] (19456/50000):	Loss 0.4024	Accurary 89.42%		Time 8.06s
+01/21 07:12:12 PM | Epoch[0] (19456/50000):	Loss 0.4024	Accurary 89.42%		Time 8.06s
+01/21 07:12:12 PM | Epoch[0] (19456/50000):	Loss 0.4024	Accurary 89.42%		Time 8.06s
+01/21 07:12:20 PM | Epoch[0] (24320/50000):	Loss 0.3640	Accurary 90.20%		Time 7.97s
+01/21 07:12:20 PM | Epoch[0] (24320/50000):	Loss 0.3640	Accurary 90.20%		Time 7.97s
+01/21 07:12:20 PM | Epoch[0] (24320/50000):	Loss 0.3640	Accurary 90.20%		Time 7.97s
+01/21 07:12:20 PM | Epoch[0] (24320/50000):	Loss 0.3640	Accurary 90.20%		Time 7.97s
+01/21 07:12:20 PM | Epoch[0] (24320/50000):	Loss 0.3640	Accurary 90.20%		Time 7.97s
+01/21 07:12:28 PM | Epoch[0] (29184/50000):	Loss 0.3386	Accurary 90.68%		Time 7.99s
+01/21 07:12:28 PM | Epoch[0] (29184/50000):	Loss 0.3386	Accurary 90.68%		Time 7.99s
+01/21 07:12:28 PM | Epoch[0] (29184/50000):	Loss 0.3386	Accurary 90.68%		Time 7.99s
+01/21 07:12:28 PM | Epoch[0] (29184/50000):	Loss 0.3386	Accurary 90.68%		Time 7.99s
+01/21 07:12:28 PM | Epoch[0] (29184/50000):	Loss 0.3386	Accurary 90.68%		Time 7.99s
+01/21 07:12:36 PM | Epoch[0] (34048/50000):	Loss 0.3188	Accurary 91.07%		Time 7.98s
+01/21 07:12:36 PM | Epoch[0] (34048/50000):	Loss 0.3188	Accurary 91.07%		Time 7.98s
+01/21 07:12:36 PM | Epoch[0] (34048/50000):	Loss 0.3188	Accurary 91.07%		Time 7.98s
+01/21 07:12:36 PM | Epoch[0] (34048/50000):	Loss 0.3188	Accurary 91.07%		Time 7.98s
+01/21 07:12:36 PM | Epoch[0] (34048/50000):	Loss 0.3188	Accurary 91.07%		Time 7.98s
+01/21 07:12:44 PM | Epoch[0] (38912/50000):	Loss 0.3051	Accurary 91.32%		Time 7.97s
+01/21 07:12:44 PM | Epoch[0] (38912/50000):	Loss 0.3051	Accurary 91.32%		Time 7.97s
+01/21 07:12:44 PM | Epoch[0] (38912/50000):	Loss 0.3051	Accurary 91.32%		Time 7.97s
+01/21 07:12:44 PM | Epoch[0] (38912/50000):	Loss 0.3051	Accurary 91.32%		Time 7.97s
+01/21 07:12:44 PM | Epoch[0] (38912/50000):	Loss 0.3051	Accurary 91.32%		Time 7.97s
+01/21 07:12:52 PM | Epoch[0] (43776/50000):	Loss 0.2930	Accurary 91.56%		Time 8.07s
+01/21 07:12:52 PM | Epoch[0] (43776/50000):	Loss 0.2930	Accurary 91.56%		Time 8.07s
+01/21 07:12:52 PM | Epoch[0] (43776/50000):	Loss 0.2930	Accurary 91.56%		Time 8.07s
+01/21 07:12:52 PM | Epoch[0] (43776/50000):	Loss 0.2930	Accurary 91.56%		Time 8.07s
+01/21 07:12:52 PM | Epoch[0] (43776/50000):	Loss 0.2930	Accurary 91.56%		Time 8.07s
+01/21 07:13:00 PM | Epoch[0] (48640/50000):	Loss 0.2843	Accurary 91.73%		Time 7.98s
+01/21 07:13:00 PM | Epoch[0] (48640/50000):	Loss 0.2843	Accurary 91.73%		Time 7.98s
+01/21 07:13:00 PM | Epoch[0] (48640/50000):	Loss 0.2843	Accurary 91.73%		Time 7.98s
+01/21 07:13:00 PM | Epoch[0] (48640/50000):	Loss 0.2843	Accurary 91.73%		Time 7.98s
+01/21 07:13:00 PM | Epoch[0] (48640/50000):	Loss 0.2843	Accurary 91.73%		Time 7.98s
+01/21 07:13:07 PM | Test Loss 0.4850	Accurary 85.01%		Time 5.05s
+
+01/21 07:13:07 PM | Test Loss 0.4850	Accurary 85.01%		Time 5.05s
+
+01/21 07:13:07 PM | Test Loss 0.4850	Accurary 85.01%		Time 5.05s
+
+01/21 07:13:07 PM | Test Loss 0.4850	Accurary 85.01%		Time 5.05s
+
+01/21 07:13:07 PM | Test Loss 0.4850	Accurary 85.01%		Time 5.05s
+
+01/21 07:13:20 PM | Epoch[1] (4864/50000):	Loss 0.1702	Accurary 94.57%		Time 12.99s
+01/21 07:13:20 PM | Epoch[1] (4864/50000):	Loss 0.1702	Accurary 94.57%		Time 12.99s
+01/21 07:13:20 PM | Epoch[1] (4864/50000):	Loss 0.1702	Accurary 94.57%		Time 12.99s
+01/21 07:13:20 PM | Epoch[1] (4864/50000):	Loss 0.1702	Accurary 94.57%		Time 12.99s
+01/21 07:13:20 PM | Epoch[1] (4864/50000):	Loss 0.1702	Accurary 94.57%		Time 12.99s
+01/21 07:13:28 PM | Epoch[1] (9728/50000):	Loss 0.1710	Accurary 94.67%		Time 8.08s
+01/21 07:13:28 PM | Epoch[1] (9728/50000):	Loss 0.1710	Accurary 94.67%		Time 8.08s
+01/21 07:13:28 PM | Epoch[1] (9728/50000):	Loss 0.1710	Accurary 94.67%		Time 8.08s
+01/21 07:13:28 PM | Epoch[1] (9728/50000):	Loss 0.1710	Accurary 94.67%		Time 8.08s
+01/21 07:13:28 PM | Epoch[1] (9728/50000):	Loss 0.1710	Accurary 94.67%		Time 8.08s
+01/21 07:13:36 PM | Epoch[1] (14592/50000):	Loss 0.1702	Accurary 94.62%		Time 8.04s
+01/21 07:13:36 PM | Epoch[1] (14592/50000):	Loss 0.1702	Accurary 94.62%		Time 8.04s
+01/21 07:13:36 PM | Epoch[1] (14592/50000):	Loss 0.1702	Accurary 94.62%		Time 8.04s
+01/21 07:13:36 PM | Epoch[1] (14592/50000):	Loss 0.1702	Accurary 94.62%		Time 8.04s
+01/21 07:13:36 PM | Epoch[1] (14592/50000):	Loss 0.1702	Accurary 94.62%		Time 8.04s
+01/21 07:13:45 PM | Epoch[1] (19456/50000):	Loss 0.1746	Accurary 94.37%		Time 8.04s
+01/21 07:13:45 PM | Epoch[1] (19456/50000):	Loss 0.1746	Accurary 94.37%		Time 8.04s
+01/21 07:13:45 PM | Epoch[1] (19456/50000):	Loss 0.1746	Accurary 94.37%		Time 8.04s
+01/21 07:13:45 PM | Epoch[1] (19456/50000):	Loss 0.1746	Accurary 94.37%		Time 8.04s
+01/21 07:13:45 PM | Epoch[1] (19456/50000):	Loss 0.1746	Accurary 94.37%		Time 8.04s
+01/21 07:13:53 PM | Epoch[1] (24320/50000):	Loss 0.1774	Accurary 94.30%		Time 8.28s
+01/21 07:13:53 PM | Epoch[1] (24320/50000):	Loss 0.1774	Accurary 94.30%		Time 8.28s
+01/21 07:13:53 PM | Epoch[1] (24320/50000):	Loss 0.1774	Accurary 94.30%		Time 8.28s
+01/21 07:13:53 PM | Epoch[1] (24320/50000):	Loss 0.1774	Accurary 94.30%		Time 8.28s
+01/21 07:13:53 PM | Epoch[1] (24320/50000):	Loss 0.1774	Accurary 94.30%		Time 8.28s
+01/21 07:14:01 PM | Epoch[1] (29184/50000):	Loss 0.1806	Accurary 94.21%		Time 8.19s
+01/21 07:14:01 PM | Epoch[1] (29184/50000):	Loss 0.1806	Accurary 94.21%		Time 8.19s
+01/21 07:14:01 PM | Epoch[1] (29184/50000):	Loss 0.1806	Accurary 94.21%		Time 8.19s
+01/21 07:14:01 PM | Epoch[1] (29184/50000):	Loss 0.1806	Accurary 94.21%		Time 8.19s
+01/21 07:14:01 PM | Epoch[1] (29184/50000):	Loss 0.1806	Accurary 94.21%		Time 8.19s
+01/21 07:14:09 PM | Epoch[1] (34048/50000):	Loss 0.1830	Accurary 94.05%		Time 8.16s
+01/21 07:14:09 PM | Epoch[1] (34048/50000):	Loss 0.1830	Accurary 94.05%		Time 8.16s
+01/21 07:14:09 PM | Epoch[1] (34048/50000):	Loss 0.1830	Accurary 94.05%		Time 8.16s
+01/21 07:14:09 PM | Epoch[1] (34048/50000):	Loss 0.1830	Accurary 94.05%		Time 8.16s
+01/21 07:14:09 PM | Epoch[1] (34048/50000):	Loss 0.1830	Accurary 94.05%		Time 8.16s
+01/21 07:14:17 PM | Epoch[1] (38912/50000):	Loss 0.1861	Accurary 93.93%		Time 8.07s
+01/21 07:14:17 PM | Epoch[1] (38912/50000):	Loss 0.1861	Accurary 93.93%		Time 8.07s
+01/21 07:14:17 PM | Epoch[1] (38912/50000):	Loss 0.1861	Accurary 93.93%		Time 8.07s
+01/21 07:14:17 PM | Epoch[1] (38912/50000):	Loss 0.1861	Accurary 93.93%		Time 8.07s
+01/21 07:14:17 PM | Epoch[1] (38912/50000):	Loss 0.1861	Accurary 93.93%		Time 8.07s
+01/21 07:14:25 PM | Epoch[1] (43776/50000):	Loss 0.1887	Accurary 93.83%		Time 8.21s
+01/21 07:14:25 PM | Epoch[1] (43776/50000):	Loss 0.1887	Accurary 93.83%		Time 8.21s
+01/21 07:14:25 PM | Epoch[1] (43776/50000):	Loss 0.1887	Accurary 93.83%		Time 8.21s
+01/21 07:14:25 PM | Epoch[1] (43776/50000):	Loss 0.1887	Accurary 93.83%		Time 8.21s
+01/21 07:14:25 PM | Epoch[1] (43776/50000):	Loss 0.1887	Accurary 93.83%		Time 8.21s
+01/21 07:14:33 PM | Epoch[1] (48640/50000):	Loss 0.1919	Accurary 93.76%		Time 8.04s
+01/21 07:14:33 PM | Epoch[1] (48640/50000):	Loss 0.1919	Accurary 93.76%		Time 8.04s
+01/21 07:14:33 PM | Epoch[1] (48640/50000):	Loss 0.1919	Accurary 93.76%		Time 8.04s
+01/21 07:14:33 PM | Epoch[1] (48640/50000):	Loss 0.1919	Accurary 93.76%		Time 8.04s
+01/21 07:14:33 PM | Epoch[1] (48640/50000):	Loss 0.1919	Accurary 93.76%		Time 8.04s
+01/21 07:14:41 PM | Test Loss 0.4612	Accurary 85.67%		Time 5.23s
+
+01/21 07:14:41 PM | Test Loss 0.4612	Accurary 85.67%		Time 5.23s
+
+01/21 07:14:41 PM | Test Loss 0.4612	Accurary 85.67%		Time 5.23s
+
+01/21 07:14:41 PM | Test Loss 0.4612	Accurary 85.67%		Time 5.23s
+
+01/21 07:14:41 PM | Test Loss 0.4612	Accurary 85.67%		Time 5.23s
+
+01/21 07:14:41 PM | ############# model6_2epoch:85.66999816894531 using 184.37777876853943s #################
+01/21 07:14:41 PM | ############# model6_2epoch:85.66999816894531 using 184.37777876853943s #################
+01/21 07:14:41 PM | ############# model6_2epoch:85.66999816894531 using 184.37777876853943s #################
+01/21 07:14:41 PM | ############# model6_2epoch:85.66999816894531 using 184.37777876853943s #################
+01/21 07:14:41 PM | ############# model6_2epoch:85.66999816894531 using 184.37777876853943s #################
