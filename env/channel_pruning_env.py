@@ -145,11 +145,11 @@ class ChannelPruningEnv:
 
                 if type(m) != nn.Conv2d:
                     return
-                if  m.weight.size()[1] == 3 : # first layer
-                    return
+                # if  m.weight.size()[1] == 3 : # first layer
+                #     return
                 
                 x = x[0]
-                x = torch.nn.functional.pad(x,pad=(1,1,1,1),Value = 0)
+                x = torch.nn.functional.pad(x,pad=(1,1,1,1),value = 0)
                 B,c,HI,WI = x.shape
                 B,n,HO,WO = y.shape
                 n,c,kh,kw = m.weight.size()
@@ -211,7 +211,7 @@ class ChannelPruningEnv:
         self.op_output = {}
         self.op_randX = {}
         self.op_randY = {}
-        for op in  self.prunable_ops:
+        for op in self.prunable_ops:
             self.op_input[op] = op.input_features
             self.op_output[op] = op.output_features
             self.op_randX[op] = op.sample_X
@@ -237,11 +237,18 @@ class ChannelPruningEnv:
 
     def _flops_preprocessed(self):
         self.conv_related_flops = {}
-        for i in self.prunable_idx:
+        for idx,i in enumerate(self.prunable_idx):
             flops = 0
-            for j in self.conv_buffer_dict[i]:
-                flops += self.flops_dict[j]
+            if idx == 0:
+                pass
+            else:
+                j = i - 1
+                while self.layer_type_dict[j] != nn.Conv2d:
+                    flops+= self.flops_dict[j]
+                    j-=1
             self.conv_related_flops[i] = flops
+        
+            
     
     def vgg_masked(self,strategy):
         # print('action taken:')
@@ -261,8 +268,9 @@ class ChannelPruningEnv:
                 mask.append(mask_)
             return mask
         mask = preprocess_get_mask(strategy)
-        from models.vgg_cifar import MaskVGG
-        masked_vgg = MaskVGG('vgg16',strategy).cuda()
+        from models.vgg_cifar import MaskVGG_IN
+        # strategy = [1.0]*len(strategy)
+        masked_vgg = MaskVGG_IN('vgg16',strategy).cuda()
 
 
         def idx2idxx(idx):
@@ -271,20 +279,31 @@ class ChannelPruningEnv:
             return self.prunable_idx.index(idxx)
 
         def pruned_model(origin_model,pruned_model,all_mask):
-            m_list = list(origin_model.modules())
+            m_list = self.m_list
             mp_list = list(pruned_model.modules())
             st = time.time()
             for idx,idxx in enumerate(self.prunable_idx):
                 mi = m_list[idxx]
-                # replace conv first
+                # replace conv
+                mask = all_mask[idx]
+                X = self.op_randX[mi][:,mask,:,:].data.cpu().numpy()
+
+                Y = None
                 if idx != len(self.prunable_idx)-1:
-                    mask = all_mask[idx]
                     mask_output = all_mask[idx+1]
-                X = self.op_randX[mi][:,mask,:,:]
-                Y = self.op_randY[mi][:,mask_output]
+                    Y = self.op_randY[mi][:,mask_output].data.cpu().numpy()
+                else:
+                    Y = self.op_randY[mi][:,:].data.cpu().numpy()
+
+                
                 from lib.utils import least_square_sklearn
+                N,c,h,w = X.shape
+                N,o = Y.shape
+                X = X.reshape((N,-1))
+                
                 W = least_square_sklearn(X,Y)
                 mp = mp_list[idxx]
+                W = W.reshape((o,c,h,w))
                 mp.weight.data.copy_(torch.from_numpy(W).cuda())
                 # weight = m_list[idxx].weight.data.cpu().numpy()
                 # bias = m_list[idxx].bias.data.cpu().numpy()
@@ -307,9 +326,10 @@ class ChannelPruningEnv:
                     j = idxx - 1 
                     while True:
                         mj = mp_list[j]
+                        mo = m_list[j]
                         if type(mj) == nn.BatchNorm2d:
-                            mj.weight.data.copy_(torch.from_numpy(m.weight.data.cpu().numpy()[mask]).cuda())
-                            mj.bias.data.copy_(torch.from_numpy(m.bias.data.cpu().numpy()[mask]).cuda())
+                            mj.weight.data.copy_(torch.from_numpy(mo.weight.data.cpu().numpy()[mask]).cuda())
+                            mj.bias.data.copy_(torch.from_numpy(mo.bias.data.cpu().numpy()[mask]).cuda())
                             # mj.running_mean.data.copy_(torch.from_numpy(m.running_mean.data.cpu().numpy()[mask]).cuda())
                             # mj.running_var.data.copy_(torch.from_numpy(m.running_var.data.cpu().numpy()[mask]).cuda())
                             break
@@ -329,6 +349,19 @@ class ChannelPruningEnv:
                         
                 #     elif type(m) == nn.Linear:
                 #         mp.weight.data.copy_(torch.from_numpy(m.weight.data.cpu().numpy()[:,mask]).cuda())
+            for idx,idxx in enumerate(self.all_idx):
+                if idxx > self.prunable_idx[-1]:
+                    mo = m_list[idxx]
+                    mp = mp_list[idxx]
+                    if type(mp) == nn.BatchNorm2d:
+                        mp.weight.data.copy_(torch.from_numpy(mo.weight.data.cpu().numpy()).cuda())
+                        mp.bias.data.copy_(torch.from_numpy(mo.bias.data.cpu().numpy()).cuda())
+                        mp.running_mean.data.copy_(torch.from_numpy(mo.running_mean.data.cpu().numpy()).cuda())
+                        mp.running_var.data.copy_(torch.from_numpy(mo.running_var.data.cpu().numpy()).cuda())
+                    elif type(mp) == nn.Linear:
+                        mp.weight.data.copy_(torch.from_numpy(mo.weight.data.cpu().numpy()).cuda())
+                        mp.bias.data.copy_(torch.from_numpy(mo.bias.data.cpu().numpy()).cuda())
+                        
             ed = time.time()
             # print(f'replace cost {ed-st}s')
 
@@ -470,6 +503,9 @@ class ChannelPruningEnv:
         # idxx = self.prunable_idx[cur_idx]
         
         assert (preserve_ratio <= 1.)
+        if cur_idx == 0 :
+            self.d_prime_list.append(3)
+            return 1.0
 
         def format_rank(x):
             rank = int(np.around(x))
@@ -485,7 +521,9 @@ class ChannelPruningEnv:
             d_prime = int(np.floor(c * 1. / self.channel_round) * self.channel_round)
 
         action = d_prime / c  # calculate the ratio
+        self.d_prime_list.append(d_prime)
 
+        return action
         # # conduct the pruning
         # weight = op.weight.data.cpu().numpy()
         # bias = op.bias.data.cpu().numpy()
@@ -539,9 +577,7 @@ class ChannelPruningEnv:
         # record the preserve idx for the next layer
         # self.channel_preseve.append(copy.deepcopy(preserve_idx))
         # self.chan_mask.append(copy.deepcopy(mask))
-        self.d_prime_list.append(d_prime)
-
-        return action
+        
 
     def _is_final_layer(self):
         return self.cur_ind == len(self.prunable_idx) - 1
@@ -549,21 +585,20 @@ class ChannelPruningEnv:
     def _is_not_final_layer(self):
         return not  self.cur_ind == len(self.prunable_idx) - 1
 
-    def _conv_pruned_flops(self,idx,last_prev=None,curr_prev=None):
+    def _conv_pruned_flops(self,idx,next_prev=None,curr_prev=None):
         curr_idx = self.prunable_idx.index(idx)
         if curr_prev is None:
             curr_prev = self.strategy_dict[idx]
-        if curr_idx == 0:
-            last_prev = 1.0
+        if curr_idx == len(self.prunable_idx)-1:
+            next_prev = 1.0
         else:
-            last_idx = self.prunable_idx[curr_idx - 1]
-
-            if last_prev is None:
-                last_prev = self.strategy_dict[last_idx]
+            next_idx = self.prunable_idx[curr_idx + 1]
+            if next_prev is None:
+                next_prev = self.strategy_dict[next_idx]
             
-        last_prev_ratio =last_prev
+        next_prev_ratio =next_prev
         curr_prev_ratio = curr_prev
-        rate = last_prev_ratio*curr_prev_ratio
+        rate = next_prev_ratio*curr_prev_ratio
         return self.flops_dict[idx]*rate
 
     def _conv_related_pruned_flops(self,idx,curr_prev=None):
@@ -571,9 +606,19 @@ class ChannelPruningEnv:
             curr_prev = self.strategy_dict[idx]
         return self.conv_related_flops[idx] * curr_prev
 
+
+    def _flops_bn2linear(self):
+        flops = 0
+        for i in self.all_idx:
+            if i > self.prunable_idx[-1]:
+                flops+=self.flops_dict[i]
+        return flops
+
     def _action_wall(self, action):
         assert len(self.strategy) == self.cur_ind
 
+        if self.cur_ind == 0 :
+            return 1.0
         action = float(action)
         action = np.clip(action, 0, 1)
 
@@ -585,13 +630,14 @@ class ChannelPruningEnv:
                 other_comp += self._conv_pruned_flops(idx) + self._conv_related_pruned_flops(idx)
 
             elif i == self.cur_ind:
-                this_comp += self._conv_pruned_flops(idx,curr_prev=1.0) + self._conv_related_pruned_flops(idx,curr_prev=1.0)
+                this_comp += self._conv_pruned_flops(idx,curr_prev=1.0,next_prev=self.lbound) + self._conv_related_pruned_flops(idx,curr_prev=1.0)
 
-            elif i == self.cur_ind+1:
-                other_comp += self._conv_pruned_flops(idx,last_prev=1.0,curr_prev=self.lbound) + self._conv_related_pruned_flops(idx,curr_prev=self.lbound)
+            elif i != len(self.prunable_idx) - 1:
+                other_comp += self._conv_pruned_flops(idx,next_prev=self.lbound,curr_prev=self.lbound) + self._conv_related_pruned_flops(idx,curr_prev=self.lbound)
             else:
-                other_comp += self._conv_pruned_flops(idx,last_prev=self.lbound,curr_prev=self.lbound) + self._conv_related_pruned_flops(idx,curr_prev=self.lbound)
-            
+                other_comp += self._conv_pruned_flops(idx,next_prev=1.0,curr_prev=self.lbound) + self._conv_related_pruned_flops(idx,curr_prev=self.lbound)
+        other_comp+=self._flops_bn2linear()
+
         max_preserve_ratio = (self.expected_preserve_computation[self.cur_beta_idx] - other_comp) * 1. / this_comp
 
         action = np.minimum(action, max_preserve_ratio)
@@ -600,10 +646,10 @@ class ChannelPruningEnv:
 
         return action
 
-    def _get_buffer_flops(self, idx):
-        buffer_idx = self.buffer_dict[idx]
-        buffer_flop = sum([self.layer_info_dict[_]['flops'] for _ in buffer_idx])
-        return buffer_flop
+    # def _get_buffer_flops(self, idx):
+    #     buffer_idx = self.buffer_dict[idx]
+    #     buffer_flop = sum([self.layer_info_dict[_]['flops'] for _ in buffer_idx])
+    #     return buffer_flop
 
     def _cur_flops(self):
         flops = 0
@@ -615,7 +661,7 @@ class ChannelPruningEnv:
             #     flops += self._conv_pruned_flops(idx,curr_prev=1.0) + self._conv_related_pruned_flops(idx,curr_prev=1.0)
             # else:
             #     flops += self._conv_pruned_flops(idx,last_prev=1.0,curr_prev=1.0) + self._conv_related_pruned_flops(idx,curr_prev=1.0)
-            
+        flops += self._flops_bn2linear()
         return flops
 
     def _cur_reduced(self):
@@ -646,6 +692,8 @@ class ChannelPruningEnv:
         self.strategy_dict = {}
         self.op2idx = {}
         self.idx2op = {}
+        self.org_Outchannels = []
+        self.org_Inchannels = []
 
         modules = list(self.model.modules())
         self.m_list = list(self.model.modules())
