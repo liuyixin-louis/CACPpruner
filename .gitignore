@@ -17,7 +17,7 @@ demo.ipynb
 test.ipynb
 data/
 plot/
-
+__pycache__/
 
 
 # Executables
