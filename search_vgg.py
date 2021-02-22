@@ -30,7 +30,7 @@ def parse_args():
 
     parser.add_argument('--lbound', default=0.2, type=float, help='minimum preserve ratio')
     parser.add_argument('--rbound', default=1., type=float, help='maximum preserve ratio')
-    parser.add_argument('--reward', default='acc_reward', type=str, help='Setting the reward')
+    parser.add_argument('--reward', default='conditional1', type=str, help='Setting the reward')
     parser.add_argument('--acc_metric', default='acc1', type=str, help='use acc1 or acc5')
     parser.add_argument('--ckpt_path', default='C:\\Users\\lenovo\\Desktop\\cacp\\cacp_vgg\\checkpoints\\vgg16_cifar10.pt', type=str, help='manual path of checkpoint')
     parser.add_argument('--channel_round', default=8, type=int, help='Round channel to multiple of channel_round')
@@ -39,11 +39,11 @@ def parse_args():
     parser.add_argument('--hidden2', default=300, type=int, help='hidden num of second fully connect layer')
     parser.add_argument('--lr_c', default=1e-3, type=float, help='learning rate for actor')
     parser.add_argument('--lr_a', default=1e-4, type=float, help='learning rate for actor')
-    parser.add_argument('--warmup', default=300, type=int,
+    parser.add_argument('--warmup', default=30, type=int,
                         help='time without training but only filling the replay memory')
     parser.add_argument('--discount', default=1., type=float, help='')
     parser.add_argument('--bsize', default=64, type=int, help='minibatch size')
-    parser.add_argument('--rmsize', default=100, type=int, help='memory size for each layer')
+    parser.add_argument('--rmsize', default=30, type=int, help='memory size for each layer')
     parser.add_argument('--window_length', default=1, type=int, help='')
     parser.add_argument('--tau', default=0.01, type=float, help='moving average for target network')
     # noise (truncated normal distribution)
@@ -53,15 +53,15 @@ def parse_args():
                         help='delta decay during exploration')
     
     # fm-reconstruction
-    parser.add_argument('--repair_batchs', default=60, type=int, help='fm-reconstruction')
-    parser.add_argument('--repair_points', default=2, type=int, help='fm-reconstruction')
+    parser.add_argument('--repair_batchs', default=3, type=int, help='fm-reconstruction')
+    parser.add_argument('--repair_points', default=6, type=int, help='fm-reconstruction')
     
     # training
     parser.add_argument('--max_episode_length', default=1e9, type=int, help='')
     parser.add_argument('--output', default='./logs', type=str, help='')
     parser.add_argument('--debug', dest='debug', action='store_true')
     parser.add_argument('--init_w', default=0.003, type=float, help='')
-    parser.add_argument('--train_episode', default=800, type=int, help='train iters each timestep')
+    parser.add_argument('--train_episode', default=100, type=int, help='train iters each timestep')
     parser.add_argument('--epsilon', default=50000, type=int, help='linear decay of exploration policy')
     parser.add_argument('--seed', default=None, type=int, help='random seed to set')
     parser.add_argument('--n_gpu', default=1, type=int, help='number of gpu to use')
@@ -94,6 +94,8 @@ def train(num_episode, agent, env, output):
     episode_reward = 0.
     observation = None
     T = []  # trajectory
+    reward_curve = []
+    
     while episode < num_episode:  # counting based on episode
         # reset if it is the start of episode
         if observation is None: # this mean we start from the first layer
@@ -132,7 +134,9 @@ def train(num_episode, agent, env, output):
                 '#{}: episode_reward:{:.4f} acc: {:.4f}, ratio: {:.4f},strategy: {},d_prime: {}\n'.format(episode, episode_reward,
                                                                                  info['accuracy'],
                                                                                  info['compress_ratio'],info['strategy'],info['d_prime']))
+            
             final_reward = T[-1][0]
+            reward_curve.append([episode,env.beta,info['accuracy']*0.01])
             # print('final_reward: {}'.format(final_reward))
             # agent observe and update policy
             for r_t, s_t, s_t1, a_t, done in T:
@@ -147,18 +151,22 @@ def train(num_episode, agent, env, output):
             episode += 1
             T = []
 
-            tfwriter.add_scalar('reward/last', final_reward, episode)
-            tfwriter.add_scalar('reward/best', env.best_reward, episode)
-            tfwriter.add_scalar('info/accuracy', info['accuracy'], episode)
-            tfwriter.add_scalar('info/compress_ratio', info['compress_ratio'], episode)
-            tfwriter.add_text('info/best_policy', str(env.best_strategy), episode)
-            # record the preserve rate for each layer
-            for i, preserve_rate in enumerate(env.strategy):
-                tfwriter.add_scalar('preserve_rate/{}'.format(i), preserve_rate, episode)
+            tfwriter.add_scalar(f'info/reward_{env.beta}', final_reward, episode)
+            tfwriter.add_scalar(f'info/best_reward_{env.beta}', env.best_reward[env.cur_beta_idx], episode)
+            tfwriter.add_scalar(f'info/accuracy_{env.beta}', info['accuracy'], episode)
+            tfwriter.add_scalar(f'info/compress_ratio_{env.beta}', info['compress_ratio'], episode)
+            tfwriter.add_text(f'info/best_policy_{env.beta}', str(env.best_strategy[env.cur_beta_idx]), episode)
 
-            text_writer.write('best reward: {}\n'.format(env.best_reward))
-            text_writer.write('best policy: {}\n'.format(env.best_strategy))
-    text_writer.close()
+            
+            # tfwriter.close()
+            # record the preserve rate for each layer
+            # for i, preserve_rate in enumerate(env.strategy):
+            #     tfwriter.add_scalar(f'preserve_rate4each_layer/{env.beta}', preserve_rate, episode)
+            # text_writer.close()
+            # text_writer.write('best reward: {}\n'.format(env.best_reward))
+            # text_writer.write('best policy: {}\n'.format(env.best_strategy))
+    # text_writer.close()
+    np.save("acc_curve_conditional2.npy",reward_curve)
 
 
 if __name__ == "__main__":
@@ -186,7 +194,7 @@ if __name__ == "__main__":
 
     if args.job == 'search':
         # build folder and logs
-        base_folder_name = '{}_{}_r{}_search'.format(args.model, args.dataset, args.compression_targets)
+        base_folder_name = '{}_{}_search'.format(args.model, args.dataset)
         if args.suffix is not None:
             base_folder_name = base_folder_name + '_' + args.suffix
         args.output = get_output_folder(args.output, base_folder_name)

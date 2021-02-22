@@ -30,15 +30,19 @@
                 "--seed",
                 "2020",
                 "--warmup",
-                "10",
+                "300",
                 "--rmsize",
-                "200",
+                "300",
                 "--bsize",
-                "10",
+                "64",
                 "--train_episode",
                 "800",
                 "--compression_targets",
-                "0.3,0.7,0.9"
+                "0.7,0.8,0.9",
+                "--repair_batchs",
+                "2",
+                "--repair_points",
+                "4"
             ]
         }
     ]
