@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument('--rbound', default=1., type=float, help='maximum preserve ratio')
     parser.add_argument('--reward', default='conditional1', type=str, help='Setting the reward')
     parser.add_argument('--acc_metric', default='acc1', type=str, help='use acc1 or acc5')
-    parser.add_argument('--ckpt_path', default='C:\\Users\\lenovo\\Desktop\\cacp\\cacp_vgg\\checkpoints\\vgg16_cifar10.pt', type=str, help='manual path of checkpoint')
+    parser.add_argument('--ckpt_path', default=r'C:\note\project\CACPpruner\checkpoints\acc_93.93_VGG16_ckpt.pt', type=str, help='manual path of checkpoint')
     parser.add_argument('--channel_round', default=8, type=int, help='Round channel to multiple of channel_round')
     # ddpg
     parser.add_argument('--hidden1', default=300, type=int, help='hidden num of first fully connect layer')
@@ -81,7 +81,9 @@ def get_model_and_checkpoint(model, dataset, checkpoint_path, n_gpu=1):
     sd = torch.load(checkpoint_path)
     if 'state_dict' in sd:  # a checkpoint but not a state_dict
         sd = sd['state_dict']
-    net.load_state_dict(sd)
+    if 'net' in sd:  # a checkpoint but not a state_dict
+        sd = sd['net']
+    net.load_state_dict({k.replace('module.',''):v for k,v in sd.items()})
     net = net.cuda()
     if n_gpu > 1:
         net = torch.nn.DataParallel(net, range(n_gpu))
